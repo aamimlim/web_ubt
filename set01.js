@@ -531,7 +531,7 @@ const quizMetadata = [
       { text: "" },
       { text: "" }
     ],
-    correct: 0,
+    correct: 1,
     points: 2.5
   },
   {
