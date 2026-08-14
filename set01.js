@@ -87,7 +87,7 @@ const quizMetadata = [
     text: "[7-10] 다음질문에답하십시오.",
     num: "7.",
     detail: "이표지는무슨뜻입니까? ",
-    image: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_07.webp",
     options: [
       { text: "이곳에서수저를살수있습니다." },
       { text: "이곳에서운동을할수있습니다." },
@@ -101,7 +101,7 @@ const quizMetadata = [
     text: "[7-10] 다음질문에답하십시오.",
     num: "8.",
     detail: "여기에서 파는 것은 무엇입니까? ",
-    image: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_08.webp",
     options: [
       { text: "배달입니다" },
       { text: "분점입니다" },
@@ -115,7 +115,7 @@ const quizMetadata = [
     text: "[7-10] 다음질문에답하십시오.",
     num: "9.",
     detail: "시장에서 산 물건에 다음과 같은 표지가 붙어 있었습니다. 이표지가 나타내는 뜻은 무엇입니까? ",
-    image: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_09.webp",
     options: [
       { text: "이것은 깨지기 쉬운 물건입니다." },
       { text: "이것은 외국에서 수입한 물건입니다." },
@@ -129,7 +129,7 @@ const quizMetadata = [
     text: "[7-10] 다음질문에답하십시오.",
     num: "10.",
     detail: "졸업후첫취업까지걸리는기간에대한설명으로맞는것은무엇입니까? ",
-    image: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_10.webp",
     options: [
       { text: "졸업후3개월안에취업을하는비율이절반이넘습니다." },
       { text: "졸업후첫취업까지2년이상걸리는사람의비율이가장적습니다." },
@@ -255,7 +255,7 @@ const quizMetadata = [
     text: "[19-20] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
     num: "19.",
     detail: "",
-    image: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_19.webp",
     options: [
       { text: "빗자루" },
       { text: "대걸래" },
@@ -269,7 +269,7 @@ const quizMetadata = [
     text: "[19-20] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
     num: "20.",
     detail: "",
-    image: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_20.webp",
     options: [
       { text: "이 사람은 지금 부소하고 있습니다" },
       { text: "이 사람은 개신하고 있습니다" },
@@ -284,7 +284,7 @@ const quizMetadata = [
     num: "21.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-21.mp3",
     options: [
       { text: "오이" },
       { text: "우의" },
@@ -299,7 +299,7 @@ const quizMetadata = [
     num: "22.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-22.mp3",
     options: [
       { text: "재고" },
       { text: "줄고" },
@@ -313,8 +313,8 @@ const quizMetadata = [
     text: "[21-24] 들은 것을 고르십시오.",
     num: "23.",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_23.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-23.mp3",
     options: [
       { image: "" },
       { image: "" },
@@ -328,8 +328,8 @@ const quizMetadata = [
     text: "[21-24] 들은 것을 고르십시오.",
     num: "24.",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_24.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-24.mp3",
     options: [
       { image: "" },
       { image: "" },
@@ -343,8 +343,8 @@ const quizMetadata = [
     text: "[25-29] 그림을 보고 알맞은 대답을 고르십시오.",
     num: "25. 이것은 무엇입니까? ",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_25.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-25.mp3",
     options: [
       { text: "1" },
       { text: "2" },
@@ -358,8 +358,8 @@ const quizMetadata = [
     text: "[25-29] 그림을 보고 알맞은 대답을 고르십시오.",
     num: "26. 여기는 어디입니까? ",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_26.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-26.mp3",
     options: [
       { text: "1" },
       { text: "2" },
@@ -373,8 +373,8 @@ const quizMetadata = [
     text: "[25-29] 그림을 보고 알맞은 대답을 고르십시오.",
     num: "27. 이 사람은 무엇을 하고 있습니까? ",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_27.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-27.mp3",
     options: [
       { text: "1" },
       { text: "2" },
@@ -388,8 +388,8 @@ const quizMetadata = [
     text: "[25-29] 그림을 보고 알맞은 대답을 고르십시오.",
     num: "28. 몇월 몇칠 입니까? ",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_28.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-28.mp3",
     options: [
       { text: "1" },
       { text: "2" },
@@ -403,8 +403,8 @@ const quizMetadata = [
     text: "[25-29] 그림을 보고 알맞은 대답을 고르십시오.",
     num: "29. 놀이터는 어디에 있습니까? ",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_29.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-29.mp3",
     options: [
       { text: "1" },
       { text: "2" },
@@ -419,7 +419,7 @@ const quizMetadata = [
     num: "30.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-30.mp3",
     options: [
       { text: "서랍 안에 있어요." },
       { text: "회의실에 계세요." },
@@ -434,7 +434,7 @@ const quizMetadata = [
     num: "31.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-31.mp3",
     options: [
       { text: "저는 회사원 입니다. " },
       { text: "저는 모니카 입니다. " },
@@ -449,7 +449,7 @@ const quizMetadata = [
     num: "32.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-32.mp3",
     options: [
       { text: "석유를 많이 수입해요." },
       { text: "저는 컴퓨터 게임을 많이 해요." },
@@ -464,7 +464,7 @@ const quizMetadata = [
     num: "33.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-33.mp3",
     options: [
       { text: "저녁이에요. " },
       { text: "회식이 있어요." },
@@ -479,7 +479,7 @@ const quizMetadata = [
     num: "34.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-34.mp3",
     options: [
       { text: "언제 보냈어요? " },
       { text: "어디로 보내실 거예요?" },
@@ -494,7 +494,7 @@ const quizMetadata = [
     num: "35.",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-35.mp3",
     options: [
       { text: "상처가 난 버섯은 다 버렸어요." },
       { text: "버섯 따는 것이 어려울 거예요." },
@@ -508,8 +508,8 @@ const quizMetadata = [
     text: "[36-37] 다음을 듣고 들은 내용과 관계 있는 그림을 고르십시오.",
     num: "36.",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_36.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-36.mp3",
     options: [
       { text: "" },
       { text: "" },
@@ -523,8 +523,8 @@ const quizMetadata = [
     text: "[36-37] 다음을 듣고 들은 내용과 관계 있는 그림을 고르십시오.",
     num: "37",
     detail: "",
-    image: "",
-    audio: "",
+    image: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1_37.webp",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-37.mp3",
     options: [
       { text: "" },
       { text: "" },
@@ -539,7 +539,7 @@ const quizMetadata = [
     num: "38. 남자는 무엇을 하고 있습니까? ",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-38.mp3",
     options: [
       { text: "사과" },
       { text: "안부" },
@@ -554,7 +554,7 @@ const quizMetadata = [
     num: "39. 여자는 지금 어디에 있습니까? ",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-39.mp3",
     options: [
       { text: "버스 안" },
       { text: "지하철 안" },
@@ -569,7 +569,7 @@ const quizMetadata = [
     num: "40. 여자는 왜 가게에 전화하려고 합니까? ",
     detail: "",
     image: "",
-    audio: "",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-40.mp3",
     options: [
       { text: "구입한 카메라가 원하는 것이 아니어서." },
       { text: "새로 구입한 카메라가 성능이 안 좋아서." },
