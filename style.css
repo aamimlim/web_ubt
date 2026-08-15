@@ -172,6 +172,7 @@ body {
   font-size: 0.95rem;
   font-weight: 600;
   color: #0f172a;
+   margin-left: 6px;
   line-height: 1.5;
   text-align: left;
 }
@@ -182,6 +183,7 @@ body {
   color: #0f172a;
   line-height: 1.5;
   text-align: left;
+   margin-left: 6px;
   width: 100%;
 }
 
