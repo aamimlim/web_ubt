@@ -271,7 +271,7 @@ function updateTimerDisplay() {
   const minutes = Math.floor(totalTimeSeconds / 60);
   const seconds = totalTimeSeconds % 60;
   if (timerEl) {
-    timerEl.innerText = `Time Left: ${minutes}m ${seconds < 10 ? "0" : ""}${seconds}s`;
+    timerEl.innerText = `${minutes}m ${seconds < 10 ? "0" : ""}${seconds}s`;
 
     // Activates CSS low-time pulse animation under 5 mins
     if (totalTimeSeconds < 300) {
