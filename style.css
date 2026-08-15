@@ -164,12 +164,13 @@ body {
   font-weight: 700;
   color: #0f172a;
   line-height: 1.5;
+   margin-bottom: 6px;
   text-align: left;
 }
 
 .question-num {
   font-size: 0.95rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #0f172a;
   line-height: 1.5;
   text-align: left;
