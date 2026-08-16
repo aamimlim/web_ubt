@@ -441,7 +441,7 @@ const quizMetadata = [
       { text: "에어컨을 켤까요?" },
       { text: "발목이 좀 아파요. " }
     ],
-    correct: 1,
+    correct: 3,
     points: 2.5
   },
  {
