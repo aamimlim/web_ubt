@@ -434,7 +434,7 @@ const quizMetadata = [
     num: "31.",
     detail: "",
     image: "",
-    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-31.mp3",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g5_set5-31.mp3",
     options: [
       { text: "저는 회사원 입니다. " },
       { text: "저는 모니카 입니다. " },
@@ -449,7 +449,7 @@ const quizMetadata = [
     num: "32.",
     detail: "",
     image: "",
-    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g4_set1-32.mp3",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2025/01/g5_set1-32.mp3",
     options: [
       { text: "석유를 많이 수입해요." },
       { text: "저는 컴퓨터 게임을 많이 해요." },
