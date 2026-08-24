@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UBT Test Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="ubt-wrapper">
+
+    <!-- TOP SECTION: Question & Timer Header -->
+    <div class="ubt-header ubt-box-head">
+      <div class="header-left">
+        <span class="stat-badge stat-answered" id="answered-count">Answered: 0</span>
+      </div>
+      <div class="header-center">
+        <span class="stat-badge stat-unanswered" id="unanswered-count">Unanswered: 40</span>
+      </div>
+      <div class="header-right">
+        <div id="timer" class="timer-display">50m 00s</div>
+      </div>
+    </div>
+
+    <!-- MIDDLE SECTION: Single Dynamic Card Template -->
+    <main id="quiz-screen" class="ubt-box ubt-main">
+      <div id="questions-container">
+        <div class="question-card" id="active-question-card">
+          <div class="card-inner-split">
+            <!-- Left Side: Dynamic Text, Image, Audio -->
+            <div class="question-text-box">
+              <p class="question-text" id="q-text"></p>
+              <p class="question-num" id="q-num"></p>
+              <div class="detail-section">
+                <p class="question-detail" id="q-detail"></p>
+
+                <img id="q-image" class="question-img hidden" src="" alt="Question Image" />
+
+                <div id="q-audio-container" class="audio-container hidden">
+                  <audio id="q-audio-player"></audio>
+
+                  <!-- Wrapper that locks both SVG and Button in the exact same center -->
+                  <div class="audio-wrapper">
+                    <svg class="progress-ring" width="70" height="70">
+                      <circle class="progress-ring__circle" stroke="#4facfe" stroke-width="4" fill="transparent" r="30"
+                        cx="35" cy="35" />
+                    </svg>
+                    <button id="audio-play-btn" class="play-btn">▶</button>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <!-- Right Side: Options List -->
+            <div class="options-section">
+              <div class="options-list" id="options-list">
+                <!-- Dynamically populated options -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ASSET PRELOADER MODAL -->
+    <div id="loading-screen" class="modal">
+      <div class="modal-content" style="max-width: 400px;">
+        <h3>Loading Test Assets...</h3>
+        <p id="loading-text" style="margin: 15px 0; font-weight: bold;">0%</p>
+
+        <div class="loading-bar-container">
+          <div id="loading-bar" class="loading-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM SECTION: Navigation Bar -->
+    <footer class="ubt-box-foot ubt-footer">
+      <button id="prev-btn" class="nav-btn">Previous</button>
+      <button id="all-questions-btn" class="nav-btn">All Questions</button>
+      <button id="next-btn" class="nav-btn primary">
+        <span>Next</span>
+        <span id="next-icon"></span>
+      </button>
+    </footer>
+
+    <!-- IMAGE PREVIEW MODAL -->
+    <div id="image-modal" class="image-modal hidden">
+      <span class="image-modal-close" id="close-image-modal">&times;</span>
+      <img class="image-modal-content" id="full-image-preview" src="" alt="Full view" />
+    </div>
+
+    <!-- RESULT SCREEN -->
+    <div id="result-screen" class="ubt-box ubt-main hidden">
+      <div class="result-header">
+        <h2 id="result-title">Quiz Completed!</h2>
+        <div id="total-score-text" class="score-display">0 / 100 pts</div>
+        <div id="total-time-text" class="time-display">Time Taken: 0m 00s</div>
+        <div class="result-legend">
+          <span class="legend-item legend-correct"><span class="badge"></span> Correct</span>
+          <span class="legend-item legend-incorrect"><span class="badge"></span> Incorrect</span>
+          <span class="legend-item legend-skipped"><span class="badge"></span> Skipped</span>
+        </div>
+      </div>
+
+      <div class="modal-grid-split result-grid-container">
+        <div class="grid-section">
+          <span class="grid-section-title">Reading Questions (1-20)</span>
+          <div id="result-grid-1" class="questions-grid"></div>
+        </div>
+        <div class="grid-section">
+          <span class="grid-section-title">Listening Questions (21-40)</span>
+          <div id="result-grid-2" class="questions-grid"></div>
+        </div>
+      </div>
+
+      <div class="result-actions">
+        <button id="view-answers-btn" class="nav-btn">View Correct Answers</button>
+        <button id="restart-btn" class="nav-btn primary">Restart Test</button>
+      </div>
+      <div id="answers-container" class="answers-container hidden"></div>
+    </div>
+
+  </div>
+
+  <!-- JUMP TO QUESTION MODAL -->
+  <div id="questions-modal" class="modal hidden">
+    <div class="modal-content large-modal">
+      <h3>All Questions</h3>
+      <div class="modal-grid-split">
+        <div class="grid-section">
+          <span class="grid-section-title">Reading Questions</span>
+          <div id="questions-grid-1" class="questions-grid"></div>
+        </div>
+        <div class="grid-section">
+          <span class="grid-section-title">Listening Questions</span>
+          <div id="questions-grid-2" class="questions-grid"></div>
+        </div>
+      </div>
+      <button id="close-modal-btn" class="nav-btn modal-close-btn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="gptz01.js"></script>
+</body>
+
+</html>
