@@ -515,10 +515,10 @@ const quizMetadata = [
         image: "",
         audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36.mp3",
         options: [
-            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-2https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-1.webp-1.webp" },
-            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-2https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-2.webp-2.webp" },
-            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-2https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-3.webp-3.webp" },
-            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-2https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-4.webp-4.webp" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-36-4.webp" }
         ],
         correct: 0,
         points: 2.5
