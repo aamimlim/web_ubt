@@ -148,6 +148,12 @@ body {
   box-sizing: border-box;
 }
 
+.detail-section:not(:has(.question-detail:not(:empty), img:not(.hidden), .audio-container:not(.hidden))) {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
 /* Mobile / Portrait Mode: Swap vertical line for a horizontal line */
 @media (orientation: portrait),
 (max-width: 640px) {
