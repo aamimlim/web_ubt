@@ -34,7 +34,7 @@ const quizMetadata = [
   text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
   num:"3.",
   detail:"",
-  image:"fire_extinguisher.png",
+  image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-03.webp",
   options:[
     { text:"비상구입니다." },
     { text:"소화기입니다." },
@@ -49,7 +49,7 @@ const quizMetadata = [
   text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
   num:"4.",
   detail:"",
-  image:"factory_meeting.png",
+  image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-04.webp",
   options:[
     { text:"회의를 하고 있습니다." },
     { text:"운동을 하고 있습니다." },
@@ -94,7 +94,7 @@ const quizMetadata = [
   text: "[7~10] 다음 글을 읽고 물음에 답하십시오.",
   num:"7. 도서관은 몇 시에 문을 닫습니까?",
   detail:"",
-  image:"library_notice.png",
+  image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-07.webp",
   options:[
     { text:"오후 5시" },
     { text:"오후 6시" },
@@ -109,7 +109,7 @@ const quizMetadata = [
   text: "[7~10] 다음 글을 읽고 물음에 답하십시오.",
   num:"8. 누구를 위한 안내문입니까?",
   detail:"",
-  image:"employee_notice.png",
+  image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-08.webp",
   options:[
     { text:"손님" },
     { text:"학생" },
@@ -124,7 +124,7 @@ const quizMetadata = [
   text: "[7~10] 다음 글을 읽고 물음에 답하십시오.",
   num:"9. 이 장소는 어디입니까?",
   detail:"",
-  image:"hospital_information.png",
+  image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-09.webp",
   options:[
     { text:"우체국" },
     { text:"약국" },
@@ -139,7 +139,7 @@ const quizMetadata = [
   text: "[7~10] 다음 글을 읽고 물음에 답하십시오.",
   num:"10. 무엇에 대한 안내입니까?",
   detail:"",
-  image:"garbage_notice.png",
+  image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-10.webp",
   options:[
     { text:"주차" },
     { text:"분리수거" },
