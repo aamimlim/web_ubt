@@ -83,8 +83,8 @@ const quizMetadata = [
         options: [
             { text: "어제 비<u>가</u> 왔습니다." },
             { text: "밥을 먹<u>가</u>." },
-            { text: "친구를 학교가 갔습니다." },
-            { text: "한국어를 어렵습니다." }
+            { text: "친구<u>를</u> 학교가 갔습니다." },
+            { text: "한국어<u>를</u> 어렵습니다." }
         ],
         correct: 0,
         points: 2.5
