@@ -333,10 +333,10 @@ const quizMetadata = [
   image:"",
   audio:"audio/set05/q23.mp3",
   options:[
-    { image:"" },
-    { image:"" },
-    { image:"" },
-    { image:"" }
+    { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-23-1.webp" },
+    { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-23-2.webp" },
+    { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-23-3.webp" },
+    { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-23-4.webp" }
   ],
   correct:1,
   points:2.5
