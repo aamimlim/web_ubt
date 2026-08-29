@@ -567,7 +567,7 @@ const quizMetadata = [
     text: "37~40 긴 대화를 듣고 답하십시오.",
     num: "38. 여자는 왜 작업 순서를 확인하려고 합니까?",
     image: "",
-    audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt04-39.mp3",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt04-38.mp3",
     options: [
       { text: "작업 순서를 확인하려고" },
       { text: "점심을 먹으려고" },
@@ -582,7 +582,7 @@ const quizMetadata = [
     text: "37~40 긴 대화를 듣고 답하십시오.",
     num: "39. 여자는 무엇을 준비해야 합니까?",
     image: "",
-    audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt04-40.mp3",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt04-39.mp3",
     options: [
       { text: "작업 도구" },
       { text: "식료품" },
@@ -597,7 +597,7 @@ const quizMetadata = [
     text: "37~40 긴 대화를 듣고 답하십시오.",
     num: "40. 여자는 왜 작업 방법을 다시 확인합니까?",
     image: "",
-    audio: "audio/set07/q40.mp3",
+    audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt04-40.mp3",
     options: [
       { text: "작업 방법을 다시 확인하기 위해" },
       { text: "휴가를 신청하기 위해" },
