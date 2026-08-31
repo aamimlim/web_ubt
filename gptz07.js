@@ -306,7 +306,7 @@ const quizMetadata = [
     text:"[21~22] 들은 것을 고르십시오.",
     num:"21.",
     image:"",
-    audio:"audio/set10/q21.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-21.mp3",
     options:[
       {text:"검수"},
       {text:"검사"},
@@ -321,7 +321,7 @@ const quizMetadata = [
     text:"[21~22] 들은 것을 고르십시오.",
     num:"22.",
     image:"",
-    audio:"audio/set10/q22.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-22.mp3",
     options:[
       {text:"납품하다"},
       {text:"납부하다"},
@@ -337,7 +337,7 @@ const quizMetadata = [
     text:"[23~28] 듣고 알맞은 그림을 고르십시오.",
     num:"23.",
     image:"",
-    audio:"audio/set10/q23.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-23.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-23-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-23-2.webp"},
@@ -352,7 +352,7 @@ const quizMetadata = [
     text:"[23~28] 듣고 알맞은 그림을 고르십시오.",
     num:"24.",
     image:"",
-    audio:"audio/set10/q24.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-24.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-24-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-24-2.webp"},
@@ -367,7 +367,7 @@ const quizMetadata = [
     text:"[23~28] 듣고 알맞은 그림을 고르십시오.",
     num:"25.",
     image:"",
-    audio:"audio/set10/q25.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-25.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-25-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-25-2.webp"},
@@ -382,7 +382,7 @@ const quizMetadata = [
     text:"[23~28] 듣고 알맞은 그림을 고르십시오.",
     num:"26.",
     image:"",
-    audio:"audio/set10/q26.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-26.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-26-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-26-2.webp"},
@@ -397,7 +397,7 @@ const quizMetadata = [
     text:"[23~28] 듣고 알맞은 그림을 고르십시오.",
     num:"27.",
     image:"",
-    audio:"audio/set10/q27.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-27.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-27-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-27-2.webp"},
@@ -412,7 +412,7 @@ const quizMetadata = [
     text:"[23~28] 듣고 알맞은 그림을 고르십시오.",
     num:"28.",
     image:"",
-    audio:"audio/set10/q28.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-28.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-28-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-28-2.webp"},
@@ -428,7 +428,7 @@ const quizMetadata = [
     text:"29~32 듣고 알맞은 대답을 고르십시오.",
     num:"29.",
     image:"",
-    audio:"audio/set10/q29.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-29.mp3",
     options:[
       {text:"네, 사용 방법을 다시 설명해 드리겠습니다."},
       {text:"네, 어제 기계를 청소했습니다."},
@@ -443,7 +443,7 @@ const quizMetadata = [
     text:"29~32 듣고 알맞은 대답을 고르십시오.",
     num:"30.",
     image:"",
-    audio:"audio/set10/q30.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-30.mp3",
     options:[
       {text:"네, 물건을 받은 후 수량을 확인하겠습니다."},
       {text:"네, 지난주에 물건을 주문했습니다."},
@@ -458,7 +458,7 @@ const quizMetadata = [
     text:"29~32 듣고 알맞은 대답을 고르십시오.",
     num:"31.",
     image:"",
-    audio:"audio/set10/q31.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-31.mp3",
     options:[
       {text:"네, 행사 전에 미리 신청하겠습니다."},
       {text:"네, 어제 행사에 참석했습니다."},
@@ -473,7 +473,7 @@ const quizMetadata = [
     text:"29~32 듣고 알맞은 대답을 고르십시오.",
     num:"32.",
     image:"",
-    audio:"audio/set10/q32.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-32.mp3",
     options:[
       {text:"네, 담당 부서에 문의해 보겠습니다."},
       {text:"네, 어제 서류를 출력했습니다."},
@@ -488,7 +488,7 @@ const quizMetadata = [
     text:"[33] 이어지는 말을 고르십시오.",
     num:"33.",
     image:"",
-    audio:"audio/set10/q33.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-33.mp3",
     options:[
       {text:"그럼 먼저 담당 부서에 문의해 보는 것이 좋겠습니다."},
       {text:"네, 어제 저녁을 먹고 집에 갔습니다."},
@@ -504,7 +504,7 @@ const quizMetadata = [
     text:"34~36 듣고 알맞은 그림을 고르십시오.",
     num:"34.",
     image:"",
-    audio:"audio/set10/q34.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-34.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-34-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-34-2.webp"},
@@ -519,7 +519,7 @@ const quizMetadata = [
     text:"34~36 듣고 알맞은 그림을 고르십시오.",
     num:"35.",
     image:"",
-    audio:"audio/set10/q35.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-35.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-35-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-35-2.webp"},
@@ -534,7 +534,7 @@ const quizMetadata = [
     text:"34~36 듣고 알맞은 그림을 고르십시오.",
     num:"36.",
     image:"",
-    audio:"audio/set10/q36.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-36.mp3",
     options:[
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-36-1.webp"},
       {image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-36-2.webp"},
@@ -549,7 +549,7 @@ const quizMetadata = [
     text:"37~40 짧은 대화를 듣고 알맞은 답을 고르십시오.",
     num:"37. 남자는 무엇을 확인하려고 합니까?",
     image:"",
-    audio:"audio/set10/q37.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-37.mp3",
     options:[
       {text:"휴가 날짜"},
       {text:"제품 가격"},
@@ -564,7 +564,7 @@ const quizMetadata = [
     text:"37~40 짧은 대화를 듣고 알맞은 답을 고르십시오.",
     num:"38. 여자는 무엇을 가져오려고 합니까?",
     image:"",
-    audio:"audio/set10/q38.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-38.mp3",
     options:[
       {text:"우산"},
       {text:"신분증"},
@@ -579,7 +579,7 @@ const quizMetadata = [
     text:"37~40 짧은 대화를 듣고 알맞은 답을 고르십시오.",
     num:"39. 남자는 왜 약속 시간을 바꾸려고 합니까?",
     image:"",
-    audio:"audio/set10/q39.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-39.mp3",
     options:[
       {text:"회사에 일이 생겨서"},
       {text:"친구를 만나서"},
@@ -594,7 +594,7 @@ const quizMetadata = [
     text:"37~40 짧은 대화를 듣고 알맞은 답을 고르십시오.",
     num:"40. 여자는 무엇을 하기로 했습니까?",
     image:"",
-    audio:"audio/set10/q40.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-40.mp3",
     options:[
       {text:"회의 자료를 준비하기로 했습니다."},
       {text:"은행에 가기로 했습니다."},
