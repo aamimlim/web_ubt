@@ -463,6 +463,7 @@ function toggleAnswersReview() {
   const isHidden = answersContainer.classList.contains("hidden");
   if (isHidden) {
     answersContainer.innerHTML = "";
+    /*
     quizMetadata.forEach((q, idx) => {
       const userAns = userAnswers[idx];
       const isCorrect = userAns === q.correct;
@@ -482,6 +483,90 @@ function toggleAnswersReview() {
       `;
       answersContainer.appendChild(card);
     });
+    */
+
+    quizMetadata.forEach((q, idx) => {
+  const userAns = userAnswers[idx];
+  const isCorrect = userAns === q.correct;
+  const isSkipped = userAns === undefined;
+
+  const card = document.createElement("div");
+  card.className = "answer-review-item";
+
+  const statusClass =
+    isSkipped ? "skipped" :
+    isCorrect ? "correct" :
+    "incorrect";
+
+  const statusText =
+    isSkipped ? "Skipped" :
+    isCorrect ? "Correct" :
+    "Incorrect";
+
+  let optionsHtml = "";
+
+  q.options.forEach((opt, optIdx) => {
+
+    let optionClass = "";
+
+    if (optIdx === q.correct) {
+      optionClass = "review-correct";
+    }
+
+    if (
+      userAns === optIdx &&
+      optIdx !== q.correct
+    ) {
+      optionClass = "review-wrong";
+    }
+
+    optionsHtml += `
+      <div class="review-option ${optionClass}">
+
+        ${opt.image
+          ? `<img src="${opt.image}" class="review-option-image">`
+          : ""
+        }
+
+        ${opt.text
+          ? `<div class="review-option-text">${opt.text}</div>`
+          : ""
+        }
+
+      </div>
+    `;
+  });
+
+  card.innerHTML = `
+    <div class="answer-review-title">
+      ${q.num || `Q${idx + 1}`}
+    </div>
+
+    <span class="answer-status-tag ${statusClass}">
+      ${statusText}
+    </span>
+
+    <div class="review-question-text">
+      ${q.text || ""}
+    </div>
+
+    ${q.detail ? `
+      <div class="review-detail">
+        ${q.detail}
+      </div>
+    ` : ""}
+
+    ${q.image ? `
+      <img src="${q.image}" class="review-question-image">
+    ` : ""}
+
+    <div class="review-options-wrapper">
+      ${optionsHtml}
+    </div>
+  `;
+
+  answersContainer.appendChild(card);
+});
     answersContainer.classList.remove("hidden");
     if (viewAnswersBtn) viewAnswersBtn.innerText = "Hide Correct Answers";
   } else {

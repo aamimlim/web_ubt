@@ -703,6 +703,48 @@ body {
   border-radius: 4px;
 }
 
+/*
+added for review
+*/
+.review-question-image{
+    max-width:300px;
+    width:100%;
+    margin:10px 0;
+    border-radius:8px;
+}
+
+.review-options-wrapper{
+    margin-top:15px;
+}
+
+.review-option{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.review-option-image{
+    max-width:250px;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+.review-option-text{
+    margin-top:8px;
+}
+
+.review-correct{
+    background:#d4edda;
+    border:2px solid #28a745;
+}
+
+.review-wrong{
+    background:#f8d7da;
+    border:2px solid #dc3545;
+}
+
 /* =============================================================
    7. RESPONSIVE & MOBILE PORTRAIT OVERRIDES
    ============================================================= */
