@@ -486,58 +486,58 @@ function toggleAnswersReview() {
     */
 
     quizMetadata.forEach((q, idx) => {
-  const userAns = userAnswers[idx];
-  const isCorrect = userAns === q.correct;
-  const isSkipped = userAns === undefined;
+      const userAns = userAnswers[idx];
+      const isCorrect = userAns === q.correct;
+      const isSkipped = userAns === undefined;
 
-  const card = document.createElement("div");
-  card.className = "answer-review-item";
+      const card = document.createElement("div");
+      card.className = "answer-review-item";
 
-  const statusClass =
-    isSkipped ? "skipped" :
-    isCorrect ? "correct" :
-    "incorrect";
+      const statusClass =
+        isSkipped ? "skipped" :
+          isCorrect ? "correct" :
+            "incorrect";
 
-  const statusText =
-    isSkipped ? "Skipped" :
-    isCorrect ? "Correct" :
-    "Incorrect";
+      const statusText =
+        isSkipped ? "Skipped" :
+          isCorrect ? "Correct" :
+            "Incorrect";
 
-  let optionsHtml = "";
+      let optionsHtml = "";
 
-  q.options.forEach((opt, optIdx) => {
+      q.options.forEach((opt, optIdx) => {
 
-    let optionClass = "";
+        let optionClass = "";
 
-    if (optIdx === q.correct) {
-      optionClass = "review-correct";
-    }
+        if (optIdx === q.correct) {
+          optionClass = "review-correct";
+        }
 
-    if (
-      userAns === optIdx &&
-      optIdx !== q.correct
-    ) {
-      optionClass = "review-wrong";
-    }
+        if (
+          userAns === optIdx &&
+          optIdx !== q.correct
+        ) {
+          optionClass = "review-wrong";
+        }
 
-    optionsHtml += `
+        optionsHtml += `
       <div class="review-option ${optionClass}">
 
         ${opt.image
-          ? `<img src="${opt.image}" class="review-option-image">`
-          : ""
-        }
+            ? `<img src="${opt.image}" class="review-option-image">`
+            : ""
+          }
 
         ${opt.text
-          ? `<div class="review-option-text">${opt.text}</div>`
-          : ""
-        }
+            ? `<div class="review-option-text">${opt.text}</div>`
+            : ""
+          }
 
       </div>
     `;
-  });
+      });
 
-  card.innerHTML = `
+      card.innerHTML = `
     <div class="answer-review-title">
       ${q.num || `Q${idx + 1}`}
     </div>
@@ -565,8 +565,8 @@ function toggleAnswersReview() {
     </div>
   `;
 
-  answersContainer.appendChild(card);
-});
+      answersContainer.appendChild(card);
+    });
     answersContainer.classList.remove("hidden");
     if (viewAnswersBtn) viewAnswersBtn.innerText = "Hide Correct Answers";
   } else {
