@@ -254,7 +254,7 @@ const quizMetadata = [
   {
     text: "17. 다음 안내문의 내용과 같은 것을 고르십시오.",
     num: "17.",
-    detail: "외국인 주민센터\n체류 기간 연장 상담 안내\n\n상담을 원하는 사람은 여권 또는 외국인등록증을 지참해 주십시오. 상담은 예약자 우선으로 진행되며, 예약하지 않은 경우 대기 시간이 길어질 수 있습니다.",
+    detail: "",
     image: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt10-17.webp",
     audio: "",
     options: [
@@ -270,7 +270,7 @@ const quizMetadata = [
   {
     text: "18. 다음 안내문의 내용과 같은 것을 고르십시오.",
     num: "18.",
-    detail: "은행 업무 안내\n\n통장이나 카드를 분실한 경우에는 즉시 은행에 신고해야 합니다. 분실 신고 후에는 본인 확인 절차를 거쳐 재발급 신청을 할 수 있습니다.",
+    detail: "",
     image: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt10-18.webp",
     audio: "",
     options: [
