@@ -452,10 +452,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt11-29.mp3",
     options: [
-      { text: "네, 오늘 안으로 전달하겠습니다." },
-      { text: "아니요, 어제 버스를 탔습니다." },
-      { text: "네, 창고가 넓습니다." },
-      { text: "다음 달부터 시작합니다." }
+      {text:"네, 오늘 안에 제출하겠습니다."},
+    {text:"아니요, 서류를 작성하고 있습니다."},
+    {text:"네, 담당자가 서류를 확인했습니다."},
+    {text:"아니요, 어제 회의에 참석했습니다."}
     ],
     correct: 0,
     points: 2.5
@@ -468,12 +468,12 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt11-30.mp3",
     options: [
-      { text: "네, 사용한 뒤 제자리에 놓겠습니다." },
-      { text: "오전 8시에 출근했습니다." },
-      { text: "아니요, 병원은 멀지 않습니다." },
-      { text: "지난주에 새로 만들었습니다." }
+       {text:"오후 두 시에 준비합니다."},
+    {text:"열 부 정도 준비하면 됩니다."},
+    {text:"회의실에서 준비하고 있습니다."},
+    {text:"내일까지 회의를 준비합니다."}
     ],
-    correct: 0,
+    correct: 1,
     points: 2.5
   },
 
@@ -484,12 +484,12 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt11-31.mp3",
     options: [
-      { text: "다음 주 수요일에 출발합니다." },
-      { text: "네, 필요한 자료를 모두 준비했습니다." },
-      { text: "아니요, 회사 근처에서 먹었습니다." },
-      { text: "오후 다섯 시에 문을 닫습니다." }
+      {text:"창고 안쪽 선반에 보관하면 됩니다."},
+    {text:"내일 오전에 물건을 확인합니다."},
+    {text:"담당자에게 물건을 주문했습니다."},
+    {text:"오후 네 시까지 작업합니다."}
     ],
-    correct: 1,
+    correct: 0,
     points: 2.5
   },
 
@@ -500,12 +500,12 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt11-32.mp3",
     options: [
-      { text: "네, 신청서를 작성해서 제출하겠습니다." },
-      { text: "네, 그 건물은 3층입니다." },
-      { text: "아니요, 어제 비가 많이 왔습니다." },
-      { text: "다음 달에 휴가를 갑니다." }
+      {text:"출입국사무소에서 발급받았습니다."},
+    {text:"회사 담당자에게 제출했습니다."},
+    {text:"이번 주 금요일까지 제출해야 합니다."},
+    {text:"외국인등록증을 복사했습니다."}
     ],
-    correct: 0,
+    correct: 2,
     points: 2.5
   },
 
