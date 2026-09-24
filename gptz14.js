@@ -5,7 +5,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 알맞은 것을 고르십시오.",
     num:"1.",
     detail:"작업자가 전동 드릴을 사용하고 있습니다.",
-    image:"set17-q1.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-01.webp",
     audio:"",
     options:[
       { text:"전동 드릴을 사용하고 있습니다." },
@@ -21,7 +21,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 알맞은 것을 고르십시오.",
     num:"2.",
     detail:"직원이 서류를 복사하고 있습니다.",
-    image:"set17-q2.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-02.webp",
     audio:"",
     options:[
       { text:"서류를 복사하고 있습니다." },
@@ -37,7 +37,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 알맞은 것을 고르십시오.",
     num:"3.",
     detail:"한 남자가 지하철 승강장에서 교통카드를 충전하고 있습니다.",
-    image:"set17-q3.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-03.webp",
     audio:"",
     options:[
       { text:"교통카드를 충전하고 있습니다." },
@@ -53,7 +53,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 알맞은 것을 고르십시오.",
     num:"4.",
     detail:"농부가 비닐하우스에서 작물에 물을 주고 있습니다.",
-    image:"set17-q4.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-04.webp",
     audio:"",
     options:[
       { text:"작물에 물을 주고 있습니다." },
@@ -103,7 +103,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"7. 주차장 정기 청소는 언제 실시됩니까?",
     detail:"",
-    image:"set17-q7.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-07.webp",
     audio:"",
     options:[
       { text:"월요일 오전" },
@@ -119,7 +119,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"8. 무인 민원 발급기를 이용할 때 필요한 것은 무엇입니까?",
     detail:"",
-    image:"set17-q8.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-08.webp",
     audio:"",
     options:[
       { text:"사원증" },
@@ -135,7 +135,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"9. 사내 식당 저녁 식사는 몇 시부터 시작합니까?",
     detail:"",
-    image:"set17-q9.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-09.webp",
     audio:"",
     options:[
       { text:"오후 4시 30분" },
@@ -151,7 +151,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"10. 반납한 공구는 어디에 두어야 합니까?",
     detail:"",
-    image:"set17-q10.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-10.webp",
     audio:"",
     options:[
       { text:"작업대 위" },
@@ -266,7 +266,7 @@ const quizMetadata = [
     text:"다음 글을 읽고 물음에 답하십시오.",
     num:"17. 이 안내의 목적으로 알맞은 것은 무엇입니까?",
     detail:"택배 보관함 이용 안내\n택배가 도착하면 문자로 보관함 번호와 인증번호가 전송됩니다. 보관함 앞 화면에 인증번호를 입력한 후 물건을 찾아가십시오. 보관 기간은 도착일로부터 3일이며, 기간이 지나면 물건이 관리실로 이동됩니다.",
-    image:"set17-q17.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-17.webp",
     audio:"",
     options:[
       { text:"택배를 보내는 방법을 안내하려고" },
@@ -282,7 +282,7 @@ const quizMetadata = [
     text:"다음 글을 읽고 물음에 답하십시오.",
     num:"18. 지하철 정기권은 어떻게 충전할 수 있습니까?",
     detail:"지하철 정기권 충전 안내\n정기권은 역 안의 충전기에서 충전할 수 있습니다. 충전할 때는 기존 정기권을 충전기에 넣고 원하는 금액을 선택한 후 결제하십시오. 현금과 카드 모두 사용할 수 있습니다.",
-    image:"set17-q18.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-18.webp",
     audio:"",
     options:[
       { text:"충전기에서 현금이나 카드로 충전할 수 있습니다." },
@@ -366,10 +366,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q23.mp3",
     options:[
-      { image:"set17-q23-1.png" },
-      { image:"set17-q23-2.png" },
-      { image:"set17-q23-3.png" },
-      { image:"set17-q23-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-23-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-23-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-23-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-23-4.webp" }
     ],
     correct:2,
     points:2.5
@@ -382,10 +382,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q24.mp3",
     options:[
-      { image:"set17-q24-1.png" },
-      { image:"set17-q24-2.png" },
-      { image:"set17-q24-3.png" },
-      { image:"set17-q24-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-24-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-24-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-24-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-24-4.webp" }
     ],
     correct:1,
     points:2.5
@@ -398,10 +398,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q25.mp3",
     options:[
-      { image:"set17-q25-1.png" },
-      { image:"set17-q25-2.png" },
-      { image:"set17-q25-3.png" },
-      { image:"set17-q25-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-25-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-25-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-25-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-25-4.webp" }
     ],
     correct:1,
     points:2.5
@@ -414,10 +414,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q26.mp3",
     options:[
-      { image:"set17-q26-1.png" },
-      { image:"set17-q26-2.png" },
-      { image:"set17-q26-3.png" },
-      { image:"set17-q26-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-26-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-26-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-26-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-26-4.webp" }
     ],
     correct:2,
     points:2.5
@@ -430,10 +430,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q27.mp3",
     options:[
-      { image:"set17-q27-1.png" },
-      { image:"set17-q27-2.png" },
-      { image:"set17-q27-3.png" },
-      { image:"set17-q27-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-27-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-27-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-27-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-27-4.webp" }
     ],
     correct:1,
     points:2.5
@@ -446,10 +446,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q28.mp3",
     options:[
-      { image:"set17-q28-1.png" },
-      { image:"set17-q28-2.png" },
-      { image:"set17-q28-3.png" },
-      { image:"set17-q28-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-28-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-28-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-28-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-28-4.webp" }
     ],
     correct:0,
     points:2.5
@@ -545,10 +545,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q34.mp3",
     options:[
-      { image:"set17-q34-1.png" },
-      { image:"set17-q34-2.png" },
-      { image:"set17-q34-3.png" },
-      { image:"set17-q34-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-34-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt06-36-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt11-27-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt11-23-3.webp" }
     ],
     correct:0,
     points:2.5
@@ -561,10 +561,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q35.mp3",
     options:[
-      { image:"set17-q35-1.png" },
-      { image:"set17-q35-2.png" },
-      { image:"set17-q35-3.png" },
-      { image:"set17-q35-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-35-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt10-28-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt02-35-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt06-28-4.webp" }
     ],
     correct:0,
     points:2.5
@@ -577,10 +577,10 @@ const quizMetadata = [
     image:"",
     audio:"audio/set17/q36.mp3",
     options:[
-      { image:"set17-q36-1.png" },
-      { image:"set17-q36-2.png" },
-      { image:"set17-q36-3.png" },
-      { image:"set17-q36-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-36-1.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-27-2.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-26-3.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-25-4.webp" }
     ],
     correct:0,
     points:2.5
