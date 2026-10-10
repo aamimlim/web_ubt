@@ -5,7 +5,7 @@ const quizMetadataSet6 = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "1.",
         detail: "",
-        image: "eps6_q01_forklift.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-01.webp",
         options: [
             { text: "천장크레인을 이용하여 하물을 하역하고 있습니다." },
             { text: "지게차를 사용하여 무거운 팔레트를 운반하고 있습니다." },
@@ -20,7 +20,7 @@ const quizMetadataSet6 = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "2.",
         detail: "",
-        image: "eps6_q02_welding.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-02.webp",
         options: [
             { text: "보안면과 용접장갑을 착용하고 아크 용접 작업을 진행 중입니다." },
             { text: "보안경을 쓰고 핸드 그라인더로 금속 표면을 연마하고 있습니다." },
@@ -35,7 +35,7 @@ const quizMetadataSet6 = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "3.",
         detail: "",
-        image: "eps6_q03_safety_harness.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-03.webp",
         options: [
             { text: "소음 발생 사업장에서 사용하는 산업용 귀마개입니다." },
             { text: "유해물질 취급 시 착용하는 송풍기형 방독마스크입니다." },
@@ -50,7 +50,7 @@ const quizMetadataSet6 = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "4.",
         detail: "",
-        image: "eps6_q04_scaffolding.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-04.webp",
         options: [
             { text: "작업장 바닥의 기름 때를 유성 세척제로 제거하고 있습니다." },
             { text: "건설 현장 외벽에 가설용 비계를 설치 및 점검하고 있습니다." },
@@ -94,8 +94,8 @@ const quizMetadataSet6 = [
     {
         text: "[7~10] 다음 안내문 및 실용문 서식을 읽고 물음에 답하십시오.",
         num: "7. 공장 내 정기 안전·보건 교육 일정 및 주의사항입니다. 다음 내용 중 맞지 않는 것은 무엇입니까?",
-        detail: "[제2분기 사업장 정기 안전보건교육 안내]\n\n1. 일시: 2026년 10월 15일 (목) 14:00 ~ 17:00 (3시간)\n2. 장소: 본관 3층 대회의실\n3. 대상: 생산1·2팀 및 설비보전팀 전 근로자 (외국인 근로자 포함)\n4. 교육 내용: 밀폐공간 작업 안전 수칙, 유해화학물질 취급 요령, 근골격계 질환 예방\n※ 주의사항:\n- 교육 시작 10분 전까지 입실을 완료해 주시기 바랍니다.\n- 현장 조기 퇴근자는 해당 교육 일정을 사전 변경 신청해야 합니다.\n- 교육 미수료 시 관련 법령에 의하여 불이익을 받을 수 있습니다.",
-        image: "",
+        detail: "",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-07.webp",
         options: [
             { text: "교육은 총 3시간 동안 진행됩니다." },
             { text: "외국인 근로자도 교육 참가 대상에 포함됩니다." },
@@ -109,8 +109,8 @@ const quizMetadataSet6 = [
     {
         text: "[7~10] 다음 안내문 및 실용문 서식을 읽고 물음에 답하십시오.",
         num: "8. 다음 연장·야간 근로 수당 내역서에 대한 설명으로 옳은 것은 무엇입니까?",
-        detail: "[10월 급여 세부 내역서 중 일부]\n- 기본급: 2,060,740원 (월 209시간 기준)\n- 연장근로수당 (30시간): 443,700원 (통상임금의 1.5배 적용)\n- 야간근로수당 (12시간): 88,740원 (통상임금의 0.5배 가산 적용)\n- 휴일근로수당: 0원\n- 공제 항목: 국민연금, 건강보험, 고용보험, 소득세 총 240,000원\n※ 실수령액 = (기본급 + 제수당) - 공제 합계액",
-        image: "",
+        detail: "",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-08.webp",
         options: [
             { text: "연장 근로 수당은 기본 시급과 동일하게 지급되었습니다." },
             { text: "야간 근로 수당은 통상임금에 0.5배가 가산되어 계산되었습니다." },
@@ -124,8 +124,8 @@ const quizMetadataSet6 = [
     {
         text: "[7~10] 다음 안내문 및 실용문 서식을 읽고 물음에 답하십시오.",
         num: "9. 이 물질안전보건자료(MSDS) 경고 표지가 뜻하는 바는 무엇입니까?",
-        detail: "[경고 표지: 불꽃 모양 기호]\n- 위험 문구: 인화성 액체 및 증기\n- 예방 조치:\n  1. 열, 스파크, 화염, 고열로부터 먼 곳에 보관할 것.\n  2. 용기를 밀폐하여 잘 환기되는 곳에 두시오.\n  3. 정전기 방지 조치를 취할 것.",
-        image: "",
+        detail: "",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-09.webp",
         options: [
             { text: "부식성 물질이므로 피부 접촉을 피해야 합니다." },
             { text: "인화성 물질이므로 불꽃이나 스파크 등 화기에 주의해야 합니다." },
@@ -139,8 +139,8 @@ const quizMetadataSet6 = [
     {
         text: "[7~10] 다음 안내문 및 실용문 서식을 읽고 물음에 답하십시오.",
         num: "10. 다음 외국인 근로자 사업장 변경 절차 안내문 내용과 일치하는 것은 무엇입니까?",
-        detail: "[외국인 근로자 사업장 변경 신청 절차]\n외국인 근로자가 부득이한 사유(사업장의 휴·폐업, 사업주의 정당한 계약 해지 등)로 사업장을 변경하고자 할 경우, 계약 종료일로부터 1개월 이내에 관할 고용센터에 사업장 변경 신청서를 제출해야 합니다. 변경 신청 후 3개월 이내에 재취업을 하지 못하면 체류 자격이 취소되어 출국해야 하므로 주의하시기 바랍니다.",
-        image: "",
+        detail: "",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-10.webp",
         options: [
             { text: "개인적인 사유만 있으면 언제든지 사업장을 바꿀 수 있습니다." },
             { text: "계약 종료 후 1개월 이내에 고용센터에 변경 신청을 해야 합니다." },
@@ -243,8 +243,8 @@ const quizMetadataSet6 = [
 
     {
         text: "17. 다음 설명에 해당하는 산업 안전 전문 용어를 고르십시오.",
-        num: "17. 산업 현장에서 근로자가 작업 수행 중 기계, 기구, 설비 등의 위험 요소나 부주의로 인해 다치거나 사망하는 사고를 예방하기 위한 종합적인 대책 및 규범을 뜻합니다.",
-        detail: "",
+        num: "17. ",
+        detail: "산업 현장에서 근로자가 작업 수행 중 기계, 기구, 설비 등의 위험 요소나 부주의로 인해 다치거나 사망하는 사고를 예방하기 위한 종합적인 대책 및 규범을 뜻합니다.",
         image: "",
         options: [
             { text: "산업재해 예방 수칙" },
@@ -258,8 +258,8 @@ const quizMetadataSet6 = [
 
     {
         text: "18. 다음 설명이 뜻하는 행정 규정을 고르십시오.",
-        num: "18. 외국인 근로자가 체류 기간 동안 질병이나 상해로 인하여 발생하는 의료비를 보장받거나, 작업 외 사유로 사망 시 유족에게 보험금을 지급하기 위해 의무적으로 가입해야 하는 외국인전용 전용 보험 중 하나입니다.",
-        detail: "",
+        num: "18. ",
+        detail: "외국인 근로자가 체류 기간 동안 질병이나 상해로 인하여 발생하는 의료비를 보장받거나, 작업 외 사유로 사망 시 유족에게 보험금을 지급하기 위해 의무적으로 가입해야 하는 외국인전용 전용 보험 중 하나입니다.",
         image: "",
         options: [
             { text: "상해보험" },
@@ -301,13 +301,12 @@ const quizMetadataSet6 = [
         points: 2.5
     },
 
-    // --- LISTENING SECTION (듣기 21~40) ---
+
     {
         text: "[21~22] 들은 어휘 및 문장을 고르십시오.",
         num: "21.",
         image: "",
-        audio: "eps6_q21_listening.mp3",
-        script: "남: 유해화학물질 물질안전보건자료",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-21.mp3",
         options: [
             { text: "유해화학물질 물질안전보건자료" },
             { text: "유해위험방지 계획안 제출서" },
@@ -322,8 +321,7 @@ const quizMetadataSet6 = [
         text: "[21~22] 들은 어휘 및 문장을 고르십시오.",
         num: "22.",
         image: "",
-        audio: "eps6_q22_listening.mp3",
-        script: "여: 고소 작업 전에 안전대를 착용하고 고리를 확실히 체결하세요.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-22.mp3",
         options: [
             { text: "밀폐 공간 진입 전 산소 농도를 측정하고 환기하세요." },
             { text: "고소 작업 전에 안전대를 착용하고 고리를 확실히 체결하세요." },
@@ -338,13 +336,12 @@ const quizMetadataSet6 = [
         text: "[23~28] 듣고 내용에 해당하는 정확한 그림을 고르십시오.",
         num: "23.",
         image: "",
-        audio: "eps6_q23_listening.mp3",
-        script: "남: 지게차를 운반할 때는 하물이 운전자의 시야를 가리지 않도록 적재 높이를 준수해야 합니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23.mp3",
         options: [
-            { image: "eps6_q23_opt1_forklift_good.png" },
-            { image: "eps6_q23_opt2_forklift_overloaded.png" },
-            { image: "eps6_q23_opt3_crane.png" },
-            { image: "eps6_q23_opt4_handcart.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-4.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -354,13 +351,12 @@ const quizMetadataSet6 = [
         text: "[23~28] 듣고 내용에 해당하는 정확한 그림을 고르십시오.",
         num: "24.",
         image: "",
-        audio: "eps6_q24_listening.mp3",
-        script: "여: 높은 곳에서 작업할 때는 전신 안전대를 착용하고 안전고리를 걸어두어야 합니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-24.mp3",
         options: [
-            { image: "eps6_q24_opt1_helmet.png" },
-            { image: "eps6_q24_opt2_safety_harness.png" },
-            { image: "eps6_q24_opt3_goggles.png" },
-            { image: "eps6_q24_opt4_earmuffs.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-24-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-24-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-24-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-24-4.webp" }
         ],
         correct: 1,
         points: 2.5
@@ -370,13 +366,12 @@ const quizMetadataSet6 = [
         text: "[23~28] 듣고 내용에 해당하는 정확한 그림을 고르십시오.",
         num: "25.",
         image: "",
-        audio: "eps6_q25_listening.mp3",
-        script: "남: 화학물질을 취급할 때는 눈에 물질이 튀지 않도록 차광 및 방진 기능이 있는 보안경을 써야 합니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-25.mp3",
         options: [
-            { image: "eps6_q25_opt1_earmuffs.png" },
-            { image: "eps6_q25_opt2_mask.png" },
-            { image: "eps6_q25_opt3_safety_goggles.png" },
-            { image: "eps6_q25_opt4_boots.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-25-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-25-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-25-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-25-4.webp" }
         ],
         correct: 2,
         points: 2.5
@@ -386,13 +381,12 @@ const quizMetadataSet6 = [
         text: "[23~28] 듣고 내용에 해당하는 정확한 그림을 고르십시오.",
         num: "26.",
         image: "",
-        audio: "eps6_q26_listening.mp3",
-        script: "여: 기계에서 이물질을 제거할 때 손으로 직접 만지지 말고 반드시 전용 집게를 이용하십시오.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-26.mp3",
         options: [
-            { image: "eps6_q26_opt1_hand_danger.png" },
-            { image: "eps6_q26_opt2_using_tongs.png" },
-            { image: "eps6_q26_opt3_using_hammer.png" },
-            { image: "eps6_q26_opt4_using_wrench.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-26-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-26-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-26-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-26-4.webp" }
         ],
         correct: 1,
         points: 2.5
@@ -402,13 +396,12 @@ const quizMetadataSet6 = [
         text: "[23~28] 듣고 내용에 해당하는 정확한 그림을 고르십시오.",
         num: "27.",
         image: "",
-        audio: "eps6_q27_listening.mp3",
-        script: "남: 비상 상황 발생 시 조작하는 긴급 정지 버튼 위치를 미리 파악해 두어야 합니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-27.mp3",
         options: [
-            { image: "eps6_q27_opt1_power_switch.png" },
-            { image: "eps6_q27_opt2_emergency_stop_button.png" },
-            { image: "eps6_q27_opt3_fire_extinguisher.png" },
-            { image: "eps6_q27_opt4_first_aid.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-27-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-27-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-27-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-27-4.webp" }
         ],
         correct: 1,
         points: 2.5
@@ -418,13 +411,12 @@ const quizMetadataSet6 = [
         text: "[23~28] 듣고 내용에 해당하는 정확한 그림을 고르십시오.",
         num: "28.",
         image: "",
-        audio: "eps6_q28_listening.mp3",
-        script: "여: 인화성 가스 저장소 부근에서는 절대 흡연을 금지하며 금연 표지판을 준수해야 합니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-28.mp3",
         options: [
-            { image: "eps6_q28_opt1_no_smoking_sign.png" },
-            { image: "eps6_q28_opt2_no_entry.png" },
-            { image: "eps6_q28_opt3_wear_helmet.png" },
-            { image: "eps6_q28_opt4_high_voltage.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-28-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-28-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-28-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-28-4.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -434,8 +426,7 @@ const quizMetadataSet6 = [
         text: "29~32 질문을 듣고 알맞은 대답을 고르십시오.",
         num: "29.",
         image: "",
-        audio: "eps6_q29_listening.mp3",
-        script: "여: 반장님, 프레스 기계에서 이상한 소음과 진동이 발생하는데 작업을 계속 진행해도 될까요?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-29.mp3",
         options: [
             { text: "아니요, 즉시 기계를 정지시키고 설비팀에 점검을 요청하세요." },
             { text: "네, 그냥 귀마개를 끼고 계속 작업하시면 됩니다." },
@@ -450,8 +441,7 @@ const quizMetadataSet6 = [
         text: "29~32 질문을 듣고 알맞은 대답을 고르십시오.",
         num: "30.",
         image: "",
-        audio: "eps6_q30_listening.mp3",
-        script: "남: 이번 달 근로 수당 내역에 야간 가산 수당이 빠져 있는 것 같은데 어디에 확인해 봐야 하나요?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-30.mp3",
         options: [
             { text: "가까운 주민센터에 가셔서 문의해 보세요." },
             { text: "경영지원팀 사무실에 가셔서 내역 확인을 요청해 보세요." },
@@ -466,8 +456,7 @@ const quizMetadataSet6 = [
         text: "29~32 질문을 듣고 알맞은 대답을 고르십시오.",
         num: "31.",
         image: "",
-        audio: "eps6_q31_listening.mp3",
-        script: "여: 도장 작업장 내부 환기 장치가 고장 났다고 하는데, 방진마스크만 쓰고 들어가도 괜찮을까요?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-31.mp3",
         options: [
             { text: "네, 방진마스크만 쓰면 유가스 차단이 충분합니다." },
             { text: "아니요, 환기가 안 되면 유독가스 중독 위험이 있으니 고칠 때까지 입장하지 마세요." },
@@ -482,8 +471,7 @@ const quizMetadataSet6 = [
         text: "29~32 질문을 듣고 알맞은 대답을 고르십시오.",
         num: "32.",
         image: "",
-        audio: "eps6_q32_listening.mp3",
-        script: "남: 체류 기간 만료일이 한 달 남았는데 연장 신청 서류는 어떤 것들을 준비해야 합니까?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-32.mp3",
         options: [
             { text: "여권, 외국인등록증, 표준근로계약서, 체류지 입증 서류를 준비하시면 됩니다." },
             { text: "운전면허증과 운송 영수증만 가지고 가시면 됩니다." },
@@ -498,8 +486,7 @@ const quizMetadataSet6 = [
         text: "[33] 이어지는 말을 고르십시오.",
         num: "33.",
         image: "",
-        audio: "eps6_q33_listening.mp3",
-        script: "여: 이번에 새로 개정된 산업안전보건법에 관한 교육 자료입니다. 미리 숙지해 두시기 바랍니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-33.mp3",
         options: [
             { text: "네, 내용을 꼼꼼히 읽어보고 작업 현장에 반영하겠습니다." },
             { text: "아니요, 비행기 표를 아직 구하지 못했습니다." },
@@ -514,13 +501,12 @@ const quizMetadataSet6 = [
         text: "34~36 듣고 알맞은 그림을 고르십시오.",
         num: "34.",
         image: "",
-        audio: "eps6_q34_listening.mp3",
-        script: "남: 용접 작업 중 발생하는 유해 광선과 불꽃으로부터 눈과 얼굴을 보호하려면 보안면을 써야 합니다.\n여: 네, 알겠습니다. 보안면과 용접용 장갑을 착용하고 작업을 시작하겠습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-34.mp3",
         options: [
-            { image: "eps6_q34_opt1_welding_mask.png" },
-            { image: "eps6_q34_opt2_earmuffs.png" },
-            { image: "eps6_q34_opt3_boots.png" },
-            { image: "eps6_q34_opt4_dust_mask.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-34-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-34-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-34-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-34-4.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -530,13 +516,12 @@ const quizMetadataSet6 = [
         text: "34~36 듣고 알맞은 그림을 고르십시오.",
         num: "35.",
         image: "",
-        audio: "eps6_q35_listening.mp3",
-        script: "여: 높은 비계 위에서 재료를 다룰 때 밑으로 떨어지지 않도록 고정 끈을 매어야 해요.\n남: 알겠습니다. 아래 지나가는 작업자가 다치지 않도록 낙하물 방지망도 확인하겠습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-35.mp3",
         options: [
-            { image: "eps6_q35_opt1_scaffolding_safety.png" },
-            { image: "eps6_q35_opt2_forklift.png" },
-            { image: "eps6_q35_opt3_mop.png" },
-            { image: "eps6_q35_opt4_ladder.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-35-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-35-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-35-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-35-4.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -546,26 +531,24 @@ const quizMetadataSet6 = [
         text: "34~36 듣고 알맞은 그림을 고르십시오.",
         num: "36.",
         image: "",
-        audio: "eps6_q36_listening.mp3",
-        script: "남: 정전기나 화재 위험이 있는 가스 저장 구역에서는 불꽃을 일으키는 행동을 금지합니다.\n여: 네, 금연 구역 표지와 화기 엄금 표지판을 반드시 확인하고 주의하겠습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-36.mp3",
         options: [
-            { image: "eps6_q36_opt1_no_flames_sign.png" },
-            { image: "eps6_q36_opt2_wear_boots.png" },
-            { image: "eps6_q36_opt3_high_voltage.png" },
-            { image: "eps6_q36_opt4_first_aid_kit.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-36-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-36-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-36-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-36-4.webp" }
         ],
         correct: 0,
         points: 2.5
     },
 
-    // --- EXTENDED LONG DIALOGUE SCRIPTS (대화문 37~40) ---
+   
     {
         text: "[37~40] 긴 대화를 듣고 물음에 답하십시오.",
         num: "37. 남자가 작업장에 들어가기 전에 조치해야 할 일로 올바른 것은 무엇입니까?",
         detail: "",
         image: "",
-        audio: "eps6_q37_listening.mp3",
-        script: "여: 반장님, 2번 도장 작업장에 들어가서 외벽 칠 작업을 시작하려고 하는데요.\n남: 잠깐만요, 투안 씨! 지금 도장 작업장은 유기용제 냄새가 가득해서 환풍기를 최소 30분 이상 가동한 뒤에 들어가야 합니다.\n여: 아, 그렇군요. 지난번처럼 그냥 일반 방진마스크만 쓰고 들어가면 안 되나요?\n남: 절대로 안 됩니다! 방진마스크는 먼지만 막아줄 뿐, 유독가스나 유기용제 증기는 막지 못해요. 반드시 송풍기형 방독마스크를 착용하고 측정기로 유해가스 농도를 확인한 후에 입실하세요.\n여: 알겠습니다. 먼저 환기 장치를 가동하고 방독마스크를 챙겨 오겠습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-37.mp3",
         options: [
             { text: "일반 방진마스크만 착용하고 바로 들어간다." },
             { text: "환풍기를 가동하고 송풍기형 방독마스크를 착용한다." },
@@ -581,8 +564,7 @@ const quizMetadataSet6 = [
         num: "38. 대화의 내용과 일치하지 않는 것은 무엇입니까?",
         detail: "",
         image: "",
-        audio: "eps6_q38_listening.mp3",
-        script: "남: 수지 씨, 어제 근로 계약 연장 건으로 사장님과 면담하셨죠? 어떻게 되었나요?\n여: 네, 사장님께서 체류 기간 연장에 동의해 주셔서 재계약을 체결하기로 했습니다. 다만 서류 준비가 몇 가지 남아 있어요.\n남: 다행이네요! 출입국관서에 비자 연장 신청을 할 때 필요한 서류는 다 챙기셨어요?\n여: 표준근로계약서랑 사업자등록증 사본은 회사에서 받아 두었고, 제가 기숙사 거주 확인서랑 여권만 챙기면 됩니다. 이번 주 금요일에 출입국관서에 다녀오려고 해요.\n남: 금요일에는 방문 예약자가 많으니 출입국 하이코리아 웹사이트에서 사전에 인터넷 예약을 꼭 하고 가세요.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-38.mp3",
         options: [
             { text: "여자는 사장님과 체류 기간 연장 재계약을 체결하기로 했다." },
             { text: "표준근로계약서와 사업자등록증 사본은 회사에서 받아 두었다." },
@@ -598,8 +580,7 @@ const quizMetadataSet6 = [
         num: "39. 남자가 손가락을 다친 주요 원인은 무엇입니까?",
         detail: "",
         image: "",
-        audio: "eps6_q39_listening.mp3",
-        script: "여: 리한 씨! 손가락에 반창고를 감고 계시네요. 무슨 일 있었나요?\n남: 아, 오전 중에 절단 기계 이물질을 제거하려다가 살짝 베였습니다.\n여: 아이구, 기계에 전원을 끄지 않고 손을 넣으신 건가요?\n남: 전원은 껐는데, 전용 안전 집게를 사용하지 않고 급한 마음에 맨손으로 내부 날을 건드렸어요. 다행히 깊게 베이지는 않아서 소독하고 밴드를 붙였습니다.\n여: 정말 큰일 날 뻔하셨네요! 아무리 급해도 기계 내부 청소나 이물질 제거 시에는 반드시 집게나 전용 공구를 사용해야 해요.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-39.mp3",
         options: [
             { text: "기계 전원을 켜놓은 상태로 조작해서" },
             { text: "이물질 제거 시 전용 집게 대신 맨손을 사용하여" },
@@ -615,8 +596,7 @@ const quizMetadataSet6 = [
         num: "40. 두 사람이 이야기하고 있는 주요 핵심 주제는 무엇입니까?",
         detail: "",
         image: "",
-        audio: "eps6_q40_listening.mp3",
-        script: "남: 이번 달 급여명세서를 확인해 봤는데, 지난주 일요일에 근무한 휴일 근로 수당 계산이 조금 이상한 것 같아요.\n여: 그래요? 휴일 근로 수당은 통상임금의 150% 가산되어 산정되어야 하는데, 명세서에 몇 시간으로 적혀 있나요?\n남: 8시간 일했는데 100% 기본 수당만 들어가 있는 것 같아요.\n여: 그렇다면 계산 착오가 있었을 수 있으니, 출근 도장 기록표와 명세서를 들고 경영지원팀 관리자에게 수정을 요청하는 게 좋겠어요.\n남: 네, 점심시간 끝나고 바로 경영지원팀에 가서 문의해 보겠습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-40.mp3",
         options: [
             { text: "휴일 근로 수당 산정 오류 확인 및 수정 요청" },
             { text: "기숙사 시설 정비 및 관리비 납부 안내" },
