@@ -4,7 +4,7 @@ const quizMetadata = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "1.",
         detail: "",
-        image: "eps7_q01_safety_boots.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-35-2.webp",
         options: [
             { text: "안전모입니다." },
             { text: "안전화입니다." },
@@ -19,7 +19,7 @@ const quizMetadata = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "2.",
         detail: "",
-        image: "eps7_q02_cleaning_floor.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt04-23-1.webp",
         options: [
             { text: "벽에 페인트를 칠하고 있습니다." },
             { text: "지게차를 운전하고 있습니다." },
@@ -34,7 +34,7 @@ const quizMetadata = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "3.",
         detail: "",
-        image: "eps7_q03_fire_extinguisher.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-27-3.webp",
         options: [
             { text: "구급함입니다." },
             { text: "비상구입니다." },
@@ -49,7 +49,7 @@ const quizMetadata = [
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
         num: "4.",
         detail: "",
-        image: "eps7_q04_welding.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt03-02.webp",
         options: [
             { text: "용접을 하고 있습니다." },
             { text: "못을 박고 있습니다." },
@@ -124,7 +124,7 @@ const quizMetadata = [
         text: "[7~10] 다음 글을 읽고 물음에 답하십시오.",
         num: "9. 이 표지판은 무슨 뜻입니까?",
         detail: "",
-        image: "eps7_q09_no_smoking.png",
+        image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-28-1.webp",
         options: [
             { text: "보안경 착용" },
             { text: "담배를 피우지 마십시오 (금연)" },
@@ -242,8 +242,8 @@ const quizMetadata = [
 
     {
         text: "17. 다음 설명에 알맞은 어휘를 고르십시오.",
-        num: "17. 무거운 물건을 올리거나 옮길 때 사용하는 공장용 차량입니다.",
-        detail: "",
+        num: "17. ",
+        detail: "무거운 물건을 올리거나 옮길 때 사용하는 공장용 차량입니다.",
         image: "",
         options: [
             { text: "지게차" },
@@ -257,8 +257,8 @@ const quizMetadata = [
 
     {
         text: "18. 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
-        num: "18. 작업 중 사고를 예방하기 위해 근로자가 지켜야 할 규칙입니다. 안전모 착용, 보호구 착용 등이 있습니다.",
-        detail: "",
+        num: "18. ",
+        detail: "작업 중 사고를 예방하기 위해 근로자가 지켜야 할 규칙입니다. 안전모 착용, 보호구 착용 등이 있습니다.",
         image: "",
         options: [
             { text: "안전 수칙" },
@@ -300,7 +300,6 @@ const quizMetadata = [
         points: 2.5
     },
 
-    // --- LISTENING SECTION (듣기 21~40) ---
     {
         text: "[21~22] 들은 것을 고르십시오.",
         num: "21.",
@@ -340,10 +339,10 @@ const quizMetadata = [
         audio: "eps7_q23_listening.mp3",
         script: "남: 지게차로 물건을 올리고 있습니다.",
         options: [
-            { image: "eps7_q23_opt1_forklift.png" },
-            { image: "eps7_q23_opt2_sweeping.png" },
-            { image: "eps7_q23_opt3_painting.png" },
-            { image: "eps7_q23_opt4_ladder.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-04.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-3.webp" }
         ],
         correct: 0,
         points: 2.5
