@@ -355,10 +355,10 @@ const quizMetadata = [
         audio: "eps7_q24_listening.mp3",
         script: "여: 소화기로 불을 끄고 있습니다.",
         options: [
-            { image: "eps7_q24_opt1_welding.png" },
-            { image: "eps7_q24_opt2_fire_extinguisher.png" },
-            { image: "eps7_q24_opt3_shoveling.png" },
-            { image: "eps7_q24_opt4_driving.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-04.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-36-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt14-04.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-36-3.webp" }
         ],
         correct: 1,
         points: 2.5
@@ -371,10 +371,10 @@ const quizMetadata = [
         audio: "eps7_q25_listening.mp3",
         script: "남: 빗자루로 바닥을 깨끗이 쓸고 있습니다.",
         options: [
-            { image: "eps7_q25_opt1_sweeping.png" },
-            { image: "eps7_q25_opt2_hammering.png" },
-            { image: "eps7_q25_opt3_sawing.png" },
-            { image: "eps7_q25_opt4_climbing.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-28-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-28-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-28-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-26-1.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -387,10 +387,10 @@ const quizMetadata = [
         audio: "eps7_q26_listening.mp3",
         script: "여: 줄자로 길이를 재고 있습니다.",
         options: [
-            { image: "eps7_q26_opt1_tape_measure.png" },
-            { image: "eps7_q26_opt2_scale.png" },
-            { image: "eps7_q26_opt3_calculator.png" },
-            { image: "eps7_q26_opt4_scissors.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-26-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-28-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-27-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt15-26-4.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -403,10 +403,10 @@ const quizMetadata = [
         audio: "eps7_q27_listening.mp3",
         script: "남: 구급함에서 밴드를 꺼내 붙이고 있습니다.",
         options: [
-            { image: "eps7_q27_opt1_bandage.png" },
-            { image: "eps7_q27_opt2_helmet.png" },
-            { image: "eps7_q27_opt3_gloves.png" },
-            { image: "eps7_q27_opt4_boots.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-27-1.jpg" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-26-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt02-01.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt03-26-3.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -419,10 +419,10 @@ const quizMetadata = [
         audio: "eps7_q28_listening.mp3",
         script: "여: 손수레에 박스를 실어 운반하고 있습니다.",
         options: [
-            { image: "eps7_q28_opt1_handcart.png" },
-            { image: "eps7_q28_opt2_bicycle.png" },
-            { image: "eps7_q28_opt3_bus.png" },
-            { image: "eps7_q28_opt4_truck.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-23-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-34-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/09/gpt08-27-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-23-3.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -515,10 +515,10 @@ const quizMetadata = [
         audio: "eps7_q34_listening.mp3",
         script: "남: 먼지가 많이 나는데 마스크 썼어요?\n여: 네, 서랍에서 방진마스크를 꺼내 썼어요.",
         options: [
-            { image: "eps7_q34_opt1_dust_mask.png" },
-            { image: "eps7_q34_opt2_earmuffs.png" },
-            { image: "eps7_q34_opt3_boots.png" },
-            { image: "eps7_q34_opt4_gloves.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-24-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-34-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-34-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-24-2.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -532,9 +532,9 @@ const quizMetadata = [
         script: "여: 이 볼트를 어떻게 조이지요?\n남: 공구함에 있는 스패너를 사용해 보세요.",
         options: [
             { image: "eps7_q35_opt1_spanner.png" },
-            { image: "eps7_q35_opt2_hammer.png" },
-            { image: "eps7_q35_opt3_saw.png" },
-            { image: "eps7_q35_opt4_broom.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-35-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-35-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-35-4.webp" }
         ],
         correct: 0,
         points: 2.5
