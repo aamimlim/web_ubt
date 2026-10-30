@@ -304,8 +304,7 @@ const quizMetadata = [
         text: "[21~22] 들은 것을 고르십시오.",
         num: "21.",
         image: "",
-        audio: "eps7_q21_listening.mp3",
-        script: "남: 안전모",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-21.mp3",
         options: [
             { text: "안전모" },
             { text: "안전화" },
@@ -320,8 +319,7 @@ const quizMetadata = [
         text: "[21~22] 들은 것을 고르십시오.",
         num: "22.",
         image: "",
-        audio: "eps7_q22_listening.mp3",
-        script: "여: 드라이버로 나사를 조이고 있습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-22.mp3",
         options: [
             { text: "망치로 못을 박고 있습니다." },
             { text: "드라이버로 나사를 조이고 있습니다." },
@@ -336,8 +334,7 @@ const quizMetadata = [
         text: "[23~28] 듣고 알맞은 그림을 고르십시오.",
         num: "23.",
         image: "",
-        audio: "eps7_q23_listening.mp3",
-        script: "남: 지게차로 물건을 올리고 있습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-23.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-1.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-23-4.webp" },
@@ -352,8 +349,7 @@ const quizMetadata = [
         text: "[23~28] 듣고 알맞은 그림을 고르십시오.",
         num: "24.",
         image: "",
-        audio: "eps7_q24_listening.mp3",
-        script: "여: 소화기로 불을 끄고 있습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-24.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-04.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-36-2.webp" },
@@ -368,8 +364,7 @@ const quizMetadata = [
         text: "[23~28] 듣고 알맞은 그림을 고르십시오.",
         num: "25.",
         image: "",
-        audio: "eps7_q25_listening.mp3",
-        script: "남: 빗자루로 바닥을 깨끗이 쓸고 있습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-25.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-28-2.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-28-1.webp" },
@@ -384,8 +379,7 @@ const quizMetadata = [
         text: "[23~28] 듣고 알맞은 그림을 고르십시오.",
         num: "26.",
         image: "",
-        audio: "eps7_q26_listening.mp3",
-        script: "여: 줄자로 길이를 재고 있습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-26.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-26-1.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-28-4.webp" },
@@ -400,8 +394,7 @@ const quizMetadata = [
         text: "[23~28] 듣고 알맞은 그림을 고르십시오.",
         num: "27.",
         image: "",
-        audio: "eps7_q27_listening.mp3",
-        script: "남: 구급함에서 밴드를 꺼내 붙이고 있습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-27.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-27-1.jpg" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt01-26-1.webp" },
@@ -416,8 +409,7 @@ const quizMetadata = [
         text: "[23~28] 듣고 알맞은 그림을 고르십시오.",
         num: "28.",
         image: "",
-        audio: "eps7_q28_listening.mp3",
-        script: "여: 손수레에 박스를 실어 운반하고 있습니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-28.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-23-1.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/08/gpt07-34-4.webp" },
@@ -432,8 +424,7 @@ const quizMetadata = [
         text: "29~32 듣고 알맞은 대답을 고르십시오.",
         num: "29.",
         image: "",
-        audio: "eps7_q29_listening.mp3",
-        script: "여: 오늘 야간 작업할 수 있어요?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-29.mp3",
         options: [
             { text: "네, 할 수 있습니다." },
             { text: "아니요, 저녁을 먹었습니다." },
@@ -448,8 +439,7 @@ const quizMetadata = [
         text: "29~32 듣고 알맞은 대답을 고르십시오.",
         num: "30.",
         image: "",
-        audio: "eps7_q30_listening.mp3",
-        script: "남: 기계에 문제가 생기면 어떻게 해야 해요?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-30.mp3",
         options: [
             { text: "바로 반장님께 알리세요." },
             { text: "퇴근하고 집에 가세요." },
@@ -464,8 +454,7 @@ const quizMetadata = [
         text: "29~32 듣고 알맞은 대답을 고르십시오.",
         num: "31.",
         image: "",
-        audio: "eps7_q31_listening.mp3",
-        script: "여: 한국에 온 지 얼마나 되었습니까?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-31.mp3",
         options: [
             { text: "1년 되었습니다." },
             { text: "비행기로 왔습니다." },
@@ -480,8 +469,7 @@ const quizMetadata = [
         text: "29~32 듣고 알맞은 대답을 고르십시오.",
         num: "32.",
         image: "",
-        audio: "eps7_q32_listening.mp3",
-        script: "남: 안전모는 어디에 있나요?",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-32.mp3",
         options: [
             { text: "사무실 선반 위에 있습니다." },
             { text: "비가 많이 옵니다." },
@@ -496,8 +484,7 @@ const quizMetadata = [
         text: "[33] 이어지는 말을 고르십시오.",
         num: "33.",
         image: "",
-        audio: "eps7_q33_listening.mp3",
-        script: "여: 수고 많으셨습니다. 내일 봬요!",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-33.mp3",
         options: [
             { text: "네, 조심히 가세요!" },
             { text: "아니요, 안 사겠습니다." },
@@ -512,8 +499,7 @@ const quizMetadata = [
         text: "34~36 듣고 알맞은 그림을 고르십시오.",
         num: "34.",
         image: "",
-        audio: "eps7_q34_listening.mp3",
-        script: "남: 먼지가 많이 나는데 마스크 썼어요?\n여: 네, 서랍에서 방진마스크를 꺼내 썼어요.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-34.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-24-1.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-34-4.webp" },
@@ -528,10 +514,9 @@ const quizMetadata = [
         text: "34~36 듣고 알맞은 그림을 고르십시오.",
         num: "35.",
         image: "",
-        audio: "eps7_q35_listening.mp3",
-        script: "여: 이 볼트를 어떻게 조이지요?\n남: 공구함에 있는 스패너를 사용해 보세요.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-35.mp3",
         options: [
-            { image: "eps7_q35_opt1_spanner.png" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-01.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-35-1.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-35-2.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-35-4.webp" }
@@ -544,13 +529,12 @@ const quizMetadata = [
         text: "34~36 듣고 알맞은 그림을 고르십시오.",
         num: "36.",
         image: "",
-        audio: "eps7_q36_listening.mp3",
-        script: "남: 박스가 많아서 손으로 들기 힘드네요.\n여: 저쪽에 있는 손수레를 가져와서 싣고 갑시다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-36.mp3",
         options: [
-            { image: "eps7_q36_opt1_handcart.png" },
-            { image: "eps7_q36_opt2_ladder.png" },
-            { image: "eps7_q36_opt3_bicycle.png" },
-            { image: "eps7_q36_opt4_bus.png" }
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-25-3.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-25-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-25-2.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt17-25-1.webp" }
         ],
         correct: 0,
         points: 2.5
@@ -561,8 +545,7 @@ const quizMetadata = [
         num: "37. 남자는 왜 망치를 찾고 있습니까?",
         detail: "",
         image: "",
-        audio: "eps7_q37_listening.mp3",
-        script: "여: 투안 씨, 공구함에서 무엇을 찾고 계세요?\n남: 판자에 못을 박아야 하는데 망치가 안 보여서 찾고 있어요.\n여: 아, 망치는 아까 리한 씨가 쓰고 작업대 위에 두었어요.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-37.mp3",
         options: [
             { text: "못을 박기 위해서" },
             { text: "바닥을 쓸기 위해서" },
@@ -578,8 +561,7 @@ const quizMetadata = [
         num: "38. 여자는 손을 다쳐서 어디로 가려고 합니까?",
         detail: "",
         image: "",
-        audio: "eps7_q38_listening.mp3",
-        script: "남: 수지 씨, 손에 피가 나는데 괜찮아요?\n여: 종이를 옮기다가 손가락을 조금 베였어요.\n남: 휴게실 벽에 구급함이 있으니까 가서 약을 바르고 밴드를 붙이세요.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-38.mp3",
         options: [
             { text: "휴게실 구급함" },
             { text: "기숙사 방" },
@@ -595,8 +577,7 @@ const quizMetadata = [
         num: "39. 여자는 주말에 무엇을 사려고 합니까?",
         detail: "",
         image: "",
-        audio: "eps7_q39_listening.mp3",
-        script: "여: 이번 토요일에 마트에 가서 생필품을 좀 사려고 해요.\n남: 어떤 걸 사실 건가요?\n여: 기숙사에서 쓸 세제랑 휴지가 다 떨어져서 사야 해요.",
+       audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-39.mp3",
         options: [
             { text: "세제와 휴지" },
             { text: "옷과 신발" },
@@ -612,8 +593,7 @@ const quizMetadata = [
         num: "40. 두 사람은 무엇에 대해 이야기하고 있습니까?",
         detail: "",
         image: "",
-        audio: "eps7_q40_listening.mp3",
-        script: "남: 이번 주 토요일 아침에 작업장 청소와 소독을 실시합니다.\n여: 몇 시까지 청소를 마쳐야 하나요?\n남: 12시까지 정리하고 퇴근하시면 됩니다.",
+        audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-40.mp3",
         options: [
             { text: "작업장 청소 및 소독" },
             { text: "신입사원 환영회" },
