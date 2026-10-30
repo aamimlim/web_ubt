@@ -502,7 +502,7 @@ const quizMetadata = [
         audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-34.mp3",
         options: [
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-24-1.webp" },
-            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-34-4.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-24-4.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt18-24-3.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt16-24-2.webp" }
         ],
