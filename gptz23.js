@@ -398,7 +398,7 @@ const quizMetadata = [
         image: "",
         audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt23-27.mp3",
         options: [
-            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-27-1.webp" },
+            { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt22-27-1.jpg" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt19-24-2.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt19-01.webp" },
             { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt19-24-4.webp" }
