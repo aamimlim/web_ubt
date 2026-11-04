@@ -167,10 +167,10 @@ const quizMetadata = [
     image:"",
     audio:"",
     options:[
-      "후에",
-      "동안",
-      "마다",
-      "조차"
+      { text:"후에"},
+      { text:"동안"},
+      { text:"마다"},
+      { text:"조차"}
     ],
     correct:0,
     points:2.5
@@ -183,10 +183,10 @@ const quizMetadata = [
     image:"",
     audio:"",
     options:[
-      "경우에는",
-      "때문에는",
-      "덕분에는",
-      "동안에는"
+      { text:"경우에는"},
+      { text:"때문에는"},
+      { text:"덕분에는"},
+      { text:"동안에는"}
     ],
     correct:0,
     points:2.5
@@ -199,10 +199,10 @@ const quizMetadata = [
     image:"",
     audio:"",
     options:[
-      "나서",
-      "까지",
-      "마다",
-      "조차"
+      { text:"나서"},
+      { text:"까지"},
+      { text:"마다"},
+      { text:"조차"}
     ],
     correct:0,
     points:2.5
@@ -215,10 +215,10 @@ const quizMetadata = [
     image:"",
     audio:"",
     options:[
-      "경우",
-      "만큼",
-      "뿐",
-      "대로"
+      { text:"경우"},
+      { text:"만큼"},
+      { text:"뿐"},
+      { text:"대로"}
     ],
     correct:0,
     points:2.5
@@ -231,10 +231,10 @@ const quizMetadata = [
     image:"",
     audio:"",
     options:[
-      "공지해야 합니다",
-      "공지하더니",
-      "공지하는 대신",
-      "공지할수록"
+      { text:"공지해야 합니다"},
+      { text:"공지하더니"},
+      { text:"공지하는 대신"},
+      { text:"공지할수록"}
     ],
     correct:0,
     points:2.5
@@ -247,10 +247,10 @@ const quizMetadata = [
     image:"",
     audio:"",
     options:[
-      "일치하는지",
-      "일치하느라고",
-      "일치하더니",
-      "일치할수록"
+      { text:"일치하는지"},
+      { text:"일치하느라고"},
+      { text:"일치하더니"},
+      { text:"일치할수록"}
     ],
     correct:0,
     points:2.5
@@ -327,10 +327,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-21.mp3",
     options:[
-      "환율",
-      "환불",
-      "환전",
-      "환급"
+      { text:"환율"},
+      { text:"환불"},
+      { text:"환전"},
+      { text:"환급"}
     ],
     correct:2,
     points:2.5
@@ -343,10 +343,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-22.mp3",
     options:[
-      "수출",
-      "수입",
-      "수리",
-      "수집"
+      { text:"수출"},
+      { text:"수입"},
+      { text:"수리"},
+      { text:"수집"}
     ],
     correct:0,
     points:2.5
@@ -455,10 +455,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-29.mp3",
     options:[
-      "네, 확인한 후 바로 알려 드리겠습니다.",
-      "네, 어제 그 식당에서 먹었습니다.",
-      "아니요, 다음 주에는 휴일입니다.",
-      "오후 세 시에 문을 닫습니다."
+      { text:"네, 확인한 후 바로 알려 드리겠습니다."},
+      { text:"네, 어제 그 식당에서 먹었습니다."},
+      { text:"아니요, 다음 주에는 휴일입니다."},
+      { text:"오후 세 시에 문을 닫습니다."}
     ],
     correct:0,
     points:2.5
@@ -471,10 +471,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-30.mp3",
     options:[
-      "네, 회의가 끝난 뒤에 정리하겠습니다.",
-      "아니요, 지하철역은 이쪽입니다.",
-      "지난달에 새로 구입했습니다.",
-      "오전에는 사람이 많았습니다."
+      { text:"네, 회의가 끝난 뒤에 정리하겠습니다."},
+      { text:"아니요, 지하철역은 이쪽입니다."},
+      { text:"지난달에 새로 구입했습니다."},
+      { text:"오전에는 사람이 많았습니다."}
     ],
     correct:0,
     points:2.5
@@ -487,10 +487,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-31.mp3",
     options:[
-      "네, 필요한 사람에게 전달해 드리겠습니다.",
-      "아니요, 어제 비가 많이 왔습니다.",
-      "다음 달부터 가격이 오릅니다.",
-      "오후 여섯 시에 퇴근합니다."
+      { text:"네, 필요한 사람에게 전달해 드리겠습니다."},
+      { text:"아니요, 어제 비가 많이 왔습니다."},
+      { text:"다음 달부터 가격이 오릅니다."},
+      { text:"오후 여섯 시에 퇴근합니다."}
     ],
     correct:0,
     points:2.5
@@ -503,10 +503,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-32.mp3",
     options:[
-      "네, 변경된 시간을 확인해 보겠습니다.",
-      "아니요, 이 건물은 5층입니다.",
-      "지난주에 친구를 만났습니다.",
-      "내일은 날씨가 맑겠습니다."
+      { text:"네, 변경된 시간을 확인해 보겠습니다."},
+      { text:"아니요, 이 건물은 5층입니다."},
+      { text:"지난주에 친구를 만났습니다."},
+      { text:"내일은 날씨가 맑겠습니다."}
     ],
     correct:0,
     points:2.5
@@ -519,10 +519,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-33.mp3",
     options:[
-      "그럼 필요한 부분을 다시 설명해 드리겠습니다.",
-      "네, 어제 오후에 집에 있었습니다.",
-      "아니요, 버스는 이미 출발했습니다.",
-      "다음 달에 휴가를 갈 예정입니다."
+      { text:"그럼 필요한 부분을 다시 설명해 드리겠습니다."},
+      { text:"네, 어제 오후에 집에 있었습니다."},
+      { text:"아니요, 버스는 이미 출발했습니다."},
+      { text:"다음 달에 휴가를 갈 예정입니다."}
     ],
     correct:0,
     points:2.5
@@ -583,10 +583,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-37.mp3",
     options:[
-      "납품 수량을 다시 확인하기 위해서",
-      "회의 장소를 변경하기 위해서",
-      "휴가 일정을 알려 주기 위해서",
-      "제품 가격을 낮추기 위해서"
+      { text:"납품 수량을 다시 확인하기 위해서"},
+      { text:"회의 장소를 변경하기 위해서"},
+      { text:"휴가 일정을 알려 주기 위해서"},
+      { text:"제품 가격을 낮추기 위해서"}
     ],
     correct:0,
     points:2.5
@@ -599,10 +599,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-38.mp3",
     options:[
-      "예약 가능 여부",
-      "버스 운행 시간",
-      "식당의 메뉴",
-      "상품의 색상"
+      { text:"예약 가능 여부"},
+      { text:"버스 운행 시간"},
+      { text:"식당의 메뉴"},
+      { text:"상품의 색상"}
     ],
     correct:0,
     points:2.5
@@ -615,10 +615,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-39.mp3",
     options:[
-      "교육에 참석하려고 합니다.",
-      "새 집으로 이사하려고 합니다.",
-      "병원에 가려고 합니다.",
-      "친구와 여행하려고 합니다."
+      { text:"교육에 참석하려고 합니다."},
+      { text:"새 집으로 이사하려고 합니다."},
+      { text:"병원에 가려고 합니다."},
+      { text:"친구와 여행하려고 합니다."}
     ],
     correct:0,
     points:2.5
@@ -631,10 +631,10 @@ const quizMetadata = [
     image:"",
     audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-40.mp3",
     options:[
-      "지역 행사",
-      "회사 회의",
-      "운동 경기",
-      "해외 여행"
+      { text:"지역 행사"},
+      { text:"회사 회의"},
+      { text:"운동 경기"},
+      { text:"해외 여행"}
     ],
     correct:0,
     points:2.5
