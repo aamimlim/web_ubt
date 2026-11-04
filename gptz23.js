@@ -1,4 +1,4 @@
-const quizMetadataSet10 = [
+const quizMetadata = [
 
 
     {
