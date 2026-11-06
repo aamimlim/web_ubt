@@ -4,7 +4,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 맞는 문장을 고르십시오.",
     num:"1.",
     detail:"",
-    image:"set23-q1.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-01.webp",
     options:[
       { text:"작업자가 용접 부위의 균열을 확인하고 있습니다." },
       { text:"작업자가 철판을 절단하고 있습니다." },
@@ -19,7 +19,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 맞는 문장을 고르십시오.",
     num:"2.",
     detail:"",
-    image:"set23-q2.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-02.webp",
     options:[
       { text:"직원이 손님의 신발을 수선하고 있습니다." },
       { text:"직원이 의류의 치수를 재고 있습니다." },
@@ -34,7 +34,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 맞는 문장을 고르십시오.",
     num:"3.",
     detail:"",
-    image:"set23-q3.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-03.webp",
     options:[
       { text:"직원이 소방 설비의 작동 상태를 점검하고 있습니다." },
       { text:"직원이 건물의 출입문을 교체하고 있습니다." },
@@ -49,7 +49,7 @@ const quizMetadata = [
     text:"[1~4] 다음 그림을 보고 맞는 문장을 고르십시오.",
     num:"4.",
     detail:"",
-    image:"set23-q4.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-04.webp",
     options:[
       { text:"직원이 식품의 유통기한을 확인하고 있습니다." },
       { text:"직원이 식품을 조리하고 있습니다." },
@@ -94,7 +94,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"7. 전기차 충전 구역을 이용할 때 지켜야 하는 사항은 무엇입니까?",
     detail:"",
-    image:"set23-q7.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-07.webp",
     audio:"",
     options:[
       { text:"충전이 끝나면 차량을 다른 장소로 이동해야 합니다." },
@@ -110,7 +110,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"8. 공동 세탁실에서 건조기를 사용한 후 해야 할 일은 무엇입니까?",
     detail:"",
-    image:"set23-q8.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-08.webp",
     audio:"",
     options:[
       { text:"먼지 필터를 청소해야 합니다." },
@@ -126,7 +126,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"9. 우체국에서 등기우편을 받을 때 필요한 절차는 무엇입니까?",
     detail:"",
-    image:"set23-q9.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-09.webp",
     audio:"",
     options:[
       { text:"수령인이 본인 확인 후 서명해야 합니다." },
@@ -142,7 +142,7 @@ const quizMetadata = [
     text:"[7~10] 다음 글을 읽고 물음에 답하십시오.",
     num:"10. 소형 폐가전제품을 버릴 때 올바른 방법은 무엇입니까?",
     detail:"",
-    image:"set23-q10.png",
+    image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-10.webp",
     audio:"",
     options:[
       { text:"지정된 수거함에 분리해서 배출해야 합니다." },
