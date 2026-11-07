@@ -355,7 +355,7 @@ const quizMetadata = [
     options:[
       { image:"set23-q23-1.png" },
       { image:"set23-q23-2.png" },
-      { image:"set23-q23-3.png" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-23-3.webp" },
       { image:"set23-q23-4.png" }
     ],
     correct:2,
@@ -369,7 +369,7 @@ const quizMetadata = [
     image:"",
     audio:"audio/set23/q24.mp3",
     options:[
-      { image:"set23-q24-1.png" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-24-1.webp" },
       { image:"set23-q24-2.png" },
       { image:"set23-q24-3.png" },
       { image:"set23-q24-4.png" }
@@ -388,7 +388,7 @@ const quizMetadata = [
       { image:"set23-q25-1.png" },
       { image:"set23-q25-2.png" },
       { image:"set23-q25-3.png" },
-      { image:"set23-q25-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-25-4.webp" }
     ],
     correct:3,
     points:2.5
@@ -402,7 +402,7 @@ const quizMetadata = [
     audio:"audio/set23/q26.mp3",
     options:[
       { image:"set23-q26-1.png" },
-      { image:"set23-q26-2.png" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-26-2.webp" },
       { image:"set23-q26-3.png" },
       { image:"set23-q26-4.png" }
     ],
@@ -417,7 +417,7 @@ const quizMetadata = [
     image:"",
     audio:"audio/set23/q27.mp3",
     options:[
-      { image:"set23-q27-1.png" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-27-1.webp" },
       { image:"set23-q27-2.png" },
       { image:"set23-q27-3.png" },
       { image:"set23-q27-4.png" }
@@ -436,7 +436,7 @@ const quizMetadata = [
       { image:"set23-q28-1.png" },
       { image:"set23-q28-2.png" },
       { image:"set23-q28-3.png" },
-      { image:"set23-q28-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-28-4.webp" }
     ],
     correct:3,
     points:2.5
@@ -530,7 +530,7 @@ const quizMetadata = [
     audio:"audio/set23/q34.mp3",
     options:[
       { image:"set23-q34-1.png" },
-      { image:"set23-q34-2.png" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-34-2.webp" },
       { image:"set23-q34-3.png" },
       { image:"set23-q34-4.png" }
     ],
@@ -548,7 +548,7 @@ const quizMetadata = [
       { image:"set23-q35-1.png" },
       { image:"set23-q35-2.png" },
       { image:"set23-q35-3.png" },
-      { image:"set23-q35-4.png" }
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-35-4.webp" }
     ],
     correct:3,
     points:2.5
@@ -561,7 +561,7 @@ const quizMetadata = [
     image:"",
     audio:"audio/set23/q36.mp3",
     options:[
-      { image:"set23-q36-1.png" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-36-1.webp" },
       { image:"set23-q36-2.png" },
       { image:"set23-q36-3.png" },
       { image:"set23-q36-4.png" }
