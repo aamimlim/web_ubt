@@ -371,7 +371,7 @@ const quizMetadata = [
     options:[
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-24-1.webp" },
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-07.webp" },
-      { image:"sethttps://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-01.webp" },
+      { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-01.webp" },
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-28-2.webp" }
     ],
     correct:0,
