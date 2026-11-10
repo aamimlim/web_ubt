@@ -311,7 +311,7 @@ const quizMetadata = [
     num:"21.",
     detail:"",
     image:"",
-    audio:"audio/set24/q21.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-21.mp3",
     options:[
       { text: "예약"},
       { text: "예산"},
@@ -326,7 +326,7 @@ const quizMetadata = [
     num:"22.",
     detail:"",
     image:"",
-    audio:"audio/set24/q22.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-22.mp3",
     options:[
       { text: "보관"},
       { text: "보급"},
@@ -342,7 +342,7 @@ const quizMetadata = [
     num:"23.",
     detail:"",
     image:"",
-    audio:"audio/set24/q23.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-23.mp3",
     options:[
       { image:"set24-q23-1.png" },
       { image:"set24-q23-2.png" },
@@ -357,7 +357,7 @@ const quizMetadata = [
     num:"24.",
     detail:"",
     image:"",
-    audio:"audio/set24/q24.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-24.mp3",
     options:[
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-24-1.webp" },
       { image:"set24-q24-2.png" },
@@ -372,7 +372,7 @@ const quizMetadata = [
     num:"25.",
     detail:"",
     image:"",
-    audio:"audio/set24/q25.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-25.mp3",
     options:[
       { image:"set24-q25-1.png" },
       { image:"set24-q25-2.png" },
@@ -387,7 +387,7 @@ const quizMetadata = [
     num:"26.",
     detail:"",
     image:"",
-    audio:"audio/set24/q26.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-26.mp3",
     options:[
       { image:"set24-q26-1.png" },
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-26-2.webp" },
@@ -402,7 +402,7 @@ const quizMetadata = [
     num:"27.",
     detail:"",
     image:"",
-    audio:"audio/set24/q27.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-27.mp3",
     options:[
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-27-1.webp" },
       { image:"set24-q27-2.png" },
@@ -417,7 +417,7 @@ const quizMetadata = [
     num:"28.",
     detail:"",
     image:"",
-    audio:"audio/set24/q28.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-28.mp3",
     options:[
       { image:"set24-q28-1.png" },
       { image:"set24-q28-2.png" },
@@ -433,7 +433,7 @@ const quizMetadata = [
     num:"29.",
     detail:"",
     image:"",
-    audio:"audio/set24/q29.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-29.mp3",
     options:[
       { text: "네, 안내 데스크에 물어보겠습니다."},
       { text: "아니요, 오늘은 날씨가 맑습니다."},
@@ -448,7 +448,7 @@ const quizMetadata = [
     num:"30.",
     detail:"",
     image:"",
-    audio:"audio/set24/q30.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-30.mp3",
     options:[
       { text: "네, 지금 물을 주겠습니다."},
       { text: "아니요, 버스가 늦게 왔습니다."},
@@ -463,7 +463,7 @@ const quizMetadata = [
     num:"31.",
     detail:"",
     image:"",
-    audio:"audio/set24/q31.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-31.mp3",
     options:[
       { text: "네, 예약한 이름을 말씀해 주세요."},
       { text: "아니요, 아직 점심을 먹지 않았습니다."},
@@ -478,7 +478,7 @@ const quizMetadata = [
     num:"32.",
     detail:"",
     image:"",
-    audio:"audio/set24/q32.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-32.mp3",
     options:[
       { text: "네, 검진 전에 음식을 먹지 않겠습니다."},
       { text: "아니요, 그 가게는 문을 닫았습니다."},
@@ -494,7 +494,7 @@ const quizMetadata = [
     num:"33.",
     detail:"",
     image:"",
-    audio:"audio/set24/q33.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-33.mp3",
     options:[
       { text: "네, 안내 표시를 확인하겠습니다."},
       { text: "아니요, 어제 비가 왔습니다."},
@@ -510,7 +510,7 @@ const quizMetadata = [
     num:"34.",
     detail:"",
     image:"",
-    audio:"audio/set24/q34.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-34.mp3",
     options:[
       { image:"set24-q34-1.png" },
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-34-2.webp" },
@@ -525,7 +525,7 @@ const quizMetadata = [
     num:"35.",
     detail:"",
     image:"",
-    audio:"audio/set24/q35.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-35.mp3",
     options:[
       { image:"set24-q35-1.png" },
       { image:"set24-q35-2.png" },
@@ -540,7 +540,7 @@ const quizMetadata = [
     num:"36.",
     detail:"",
     image:"",
-    audio:"audio/set24/q36.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-36.mp3",
     options:[
       { image:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-36-1.webp" },
       { image:"set24-q36-2.png" },
@@ -556,7 +556,7 @@ const quizMetadata = [
     num:"37. 남자는 어디에서 기다리겠습니까?",
     detail:"",
     image:"",
-    audio:"audio/set24/q37.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-37.mp3",
     options:[
       { text: "박물관 입구"},
       { text: "식당 안"},
@@ -571,7 +571,7 @@ const quizMetadata = [
     num:"38. 여자는 왜 일찍 출발하려고 합니까?",
     detail:"",
     image:"",
-    audio:"audio/set24/q38.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-38.mp3",
     options:[
       { text: "버스를 놓치지 않으려고"},
       { text: "친구와 점심을 먹으려고"},
@@ -586,7 +586,7 @@ const quizMetadata = [
     num:"39. 두 사람은 무엇을 하기로 했습니까?",
     detail:"",
     image:"",
-    audio:"audio/set24/q39.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-39.mp3",
     options:[
       { text: "주말에 공원에서 함께 운동하기"},
       { text: "오늘 저녁에 영화를 보기"},
@@ -601,7 +601,7 @@ const quizMetadata = [
     num:"40. 남자는 검진 전에 무엇을 하지 않기로 했습니까?",
     detail:"",
     image:"",
-    audio:"audio/set24/q40.mp3",
+    audio:"https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b1-40.mp3",
     options:[
       { text: "음식을 먹지 않기로 했습니다."},
       { text: "물을 마시지 않기로 했습니다."},
