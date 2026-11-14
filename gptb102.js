@@ -162,7 +162,12 @@ const quizMetadata = [
     detail:"음식을 냉장고에 넣기 전에 날짜를 ______ 표시해 두세요.",
     image:"",
     audio:"",
-    options:["미리","갑자기","서로","천천히"],
+    options:[
+      { text:"미리"},
+      { text:"갑자기"},
+      { text:"서로"},
+      { text:"천천히"}
+    ],
     correct:0,
     points:2.5
   },
@@ -172,7 +177,12 @@ const quizMetadata = [
     detail:"이 길은 공사 중이므로 다른 길로 ______ 합니다.",
     image:"",
     audio:"",
-    options:["돌아가야","돌아오면서","돌아보면","돌아가도록"],
+    options:[
+      { text:"돌아가야"},
+      { text:"돌아오면서"},
+      { text:"돌아보면"},
+      { text:"돌아가도록"}
+    ],
     correct:0,
     points:2.5
   },
@@ -182,7 +192,12 @@ const quizMetadata = [
     detail:"사용한 물건은 원래 ______ 놓아야 합니다.",
     image:"",
     audio:"",
-    options:["자리에","자리를","자리로","자리에서"],
+    options:[
+      { text:"자리에"},
+      { text:"자리를"},
+      { text:"자리로"},
+      { text:"자리에서"}
+    ],
     correct:0,
     points:2.5
   },
@@ -192,7 +207,12 @@ const quizMetadata = [
     detail:"날씨가 더우니까 물을 자주 ______ 것이 좋습니다.",
     image:"",
     audio:"",
-    options:["마시는","마시러","마시려고","마셨던"],
+    options:[
+      { text:"마시는"},
+      { text:"마시러"},
+      { text:"마시려고"},
+      { text:"마셨던"}
+    ],
     correct:0,
     points:2.5
   },
@@ -202,7 +222,12 @@ const quizMetadata = [
     detail:"버스가 늦게 와서 약속 장소에 조금 늦게 ______.",
     image:"",
     audio:"",
-    options:["도착했습니다","도착하겠습니다","도착합니까","도착하려고"],
+    options:[
+      { text:"도착했습니다"},
+      { text:"도착하겠습니다"},
+      { text:"도착합니까"},
+      { text:"도착하려고"}
+    ],
     correct:0,
     points:2.5
   },
@@ -212,7 +237,12 @@ const quizMetadata = [
     detail:"이 기계는 사용하기 전에 설명서를 ______ 읽어야 합니다.",
     image:"",
     audio:"",
-    options:["꼼꼼히","갑자기","드물게","서로"],
+    options:[
+      { text:"꼼꼼히"},
+      { text:"갑자기"},
+      { text:"드물게"},
+      { text:"서로"}
+    ],
     correct:0,
     points:2.5
   },
