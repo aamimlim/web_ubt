@@ -10,9 +10,12 @@
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
-html, body {
-   height: 100%;
-  overflow: hidden; /* Prevents the outer body/window from scrolling */
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  /* Prevents the outer body/window from scrolling */
 }
 
 body {
@@ -22,7 +25,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100dvh; /* Uses dynamic viewport height for mobile WebViews */
+  height: 100dvh;
+  /* Uses dynamic viewport height for mobile WebViews */
 }
 
 /* Outer Container Frame */
@@ -106,28 +110,15 @@ body {
    3. MAIN QUESTION & OPTIONS AREA
    ============================================================= */
 .ubt-main {
-  flex: 1; /* Takes up all available vertical space between header & footer */
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto; /* Enables vertical scrolling only in middle area */
-  -webkit-overflow-scrolling: touch; /* Smooth momentum scrolling for iOS WebView */
+  flex: 1;
+  /* Takes up all available vertical space between header & footer */
+  overflow-y: auto;
+  /* Enables vertical scrolling only in middle area */
+  -webkit-overflow-scrolling: touch;
+  /* Smooth momentum scrolling for iOS WebView */
   padding: 0;
   margin-left: 16px;
   margin-right: 16px;
-}
-
-/* Let the question template fill the middle panel, not the header/footer */
-#questions-container {
-  flex: 1;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.question-card {
-  flex: 1;
-  min-height: 100%;
 }
 
 .question-card.hidden {
@@ -136,51 +127,37 @@ body {
 
 /* Landscape Mode (Default Side-by-Side Split) */
 .card-inner-split {
-  position: relative; /* Makes the divider position relative to this question card only */
-  isolation: isolate;
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  flex: 1;
-  min-height: 450px;
-  width: 100%;
-}
-
-/* Vertical Divider - confined to the question/options container */
-.card-inner-split::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 1px;
-  background-color: #000000;
-  transform: translateX(-50%);
-  pointer-events: none;
-  z-index: 1;
 }
 
 /* Left Side: Question Text Box */
 .question-text-box {
   flex: 1;
-  min-width: 0;
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border-right: none; /* Divider is drawn by .card-inner-split::after */
+  border-right: 1px solid #000000;
   box-sizing: border-box;
 }
 
 .detail-section {
   display: flex;
   flex-direction: column;
-  align-items: center;         /* Horizontally centers content */
-  width: 100%;                  /* Occupies full width of text box */
-  margin-top: 4px;            /* Spacing below question text and number */
+  align-items: center;
+  /* Horizontally centers content */
+  width: 100%;
+  /* Occupies full width of text box */
+  margin-top: 4px;
+  /* Spacing below question text and number */
   padding: 8px;
-  border: .2px solid #5e6579;   /* Border outlining the entire area */
-  border-radius: 4px;          /* Matching design radius */
-  background-color: #ffffff;   /* Ensures clean background */
+  border: .2px solid #5e6579;
+  /* Border outlining the entire area */
+  border-radius: 4px;
+  /* Matching design radius */
+  background-color: #ffffff;
+  /* Ensures clean background */
   box-sizing: border-box;
 }
 
@@ -193,15 +170,6 @@ body {
 /* Mobile / Portrait Mode: Swap vertical line for a horizontal line */
 @media (orientation: portrait),
 (max-width: 640px) {
-  .card-inner-split {
-    flex-direction: column;
-    min-height: 0;
-  }
-
-  .card-inner-split::after {
-    display: none; /* No vertical divider in portrait/mobile layout */
-  }
-
   .question-text-box {
     border-right: none;
     border-bottom: 1px solid #000000;
@@ -226,7 +194,7 @@ body {
   font-weight: 700;
   color: #0f172a;
   line-height: 1.5;
-   margin-bottom: 6px;
+  margin-bottom: 6px;
   text-align: left;
 }
 
@@ -234,7 +202,7 @@ body {
   font-size: 0.95rem;
   font-weight: 600;
   color: #0f172a;
-   margin-left: 6px;
+  margin-left: 6px;
   line-height: 1.5;
   text-align: left;
 }
@@ -245,7 +213,7 @@ body {
   color: #0f172a;
   line-height: 1.5;
   text-align: left;
-   margin-left: 6px;
+  margin-left: 6px;
   width: 100%;
 }
 
@@ -301,8 +269,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(-90deg); /* Rotates start point to 12 o'clock */
-  pointer-events: none; /* Allows click events to pass through to the button */
+  transform: rotate(-90deg);
+  /* Rotates start point to 12 o'clock */
+  pointer-events: none;
+  /* Allows click events to pass through to the button */
 }
 
 .progress-ring__circle {
@@ -317,26 +287,25 @@ body {
   background-color: #b0bec5;
   color: #ffffff;
   cursor: not-allowed;
-  transform: translate(-50%, -50%) !important; /* Fixed position shifting */
+  transform: translate(-50%, -50%) !important;
+  /* Fixed position shifting */
   box-shadow: none;
   opacity: 0.8;
 }
 
 /* Ensure progress ring turns subtle gray when disabled */
-.play-btn.disabled ~ .progress-ring .progress-ring__circle,
-.play-btn:disabled ~ .progress-ring .progress-ring__circle {
+.play-btn.disabled~.progress-ring .progress-ring__circle,
+.play-btn:disabled~.progress-ring .progress-ring__circle {
   stroke: #b0bec5;
 }
 
 /* Right Side: Options List */
 .options-section {
   flex: 1;
-  min-width: 0;
   padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .options-list {
@@ -364,6 +333,7 @@ body {
 .option-btn:hover {
   background-color: #f1f5f9;
 }
+
 /* Styling for click-to-zoom option images */
 .option-btn .option-img {
   max-width: 100px;
@@ -434,7 +404,8 @@ body {
    4. FOOTER NAVIGATION
    ============================================================= */
 .ubt-footer {
-  flex-shrink: 0; /* Prevents footer from shrinking */
+  flex-shrink: 0;
+  /* Prevents footer from shrinking */
   padding: 4px 25px 4px 25px;
   display: flex;
   justify-content: space-between;
@@ -735,9 +706,17 @@ body {
   display: block;
 }
 
-.answer-status-tag.correct { color: #16a34a; }
-.answer-status-tag.incorrect { color: #dc2626; }
-.answer-status-tag.skipped { color: #64748b; }
+.answer-status-tag.correct {
+  color: #16a34a;
+}
+
+.answer-status-tag.incorrect {
+  color: #dc2626;
+}
+
+.answer-status-tag.skipped {
+  color: #64748b;
+}
 
 .correct-answer-badge {
   display: inline-block;
@@ -753,43 +732,43 @@ body {
 /*
 added for review
 */
-.review-question-image{
-    max-width:300px;
-    width:100%;
-    margin:10px 0;
-    border-radius:8px;
+.review-question-image {
+  max-width: 300px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 8px;
 }
 
-.review-options-wrapper{
-    margin-top:15px;
+.review-options-wrapper {
+  margin-top: 15px;
 }
 
-.review-option{
-    border:1px solid #ddd;
-    border-radius:10px;
-    padding:10px;
-    margin-bottom:10px;
+.review-option {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.review-option-image{
-    max-width:250px;
-    width:100%;
-    display:block;
-    margin:auto;
+.review-option-image {
+  max-width: 250px;
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 
-.review-option-text{
-    margin-top:8px;
+.review-option-text {
+  margin-top: 8px;
 }
 
-.review-correct{
-    background:#d4edda;
-    border:2px solid #28a745;
+.review-correct {
+  background: #d4edda;
+  border: 2px solid #28a745;
 }
 
-.review-wrong{
-    background:#f8d7da;
-    border:2px solid #dc3545;
+.review-wrong {
+  background: #f8d7da;
+  border: 2px solid #dc3545;
 }
 
 /* =============================================================
@@ -803,11 +782,6 @@ added for review
 
   .card-inner-split {
     flex-direction: column;
-    min-height: 0;
-  }
-
-  .card-inner-split::after {
-    display: none;
   }
 
   .question-text-box {
