@@ -107,11 +107,27 @@ body {
    ============================================================= */
 .ubt-main {
   flex: 1; /* Takes up all available vertical space between header & footer */
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
   overflow-y: auto; /* Enables vertical scrolling only in middle area */
   -webkit-overflow-scrolling: touch; /* Smooth momentum scrolling for iOS WebView */
   padding: 0;
-    margin-left: 16px;
+  margin-left: 16px;
   margin-right: 16px;
+}
+
+/* Let the question template fill the middle panel, not the header/footer */
+#questions-container {
+  flex: 1;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.question-card {
+  flex: 1;
+  min-height: 100%;
 }
 
 .question-card.hidden {
@@ -120,18 +136,38 @@ body {
 
 /* Landscape Mode (Default Side-by-Side Split) */
 .card-inner-split {
+  position: relative; /* Makes the divider position relative to this question card only */
+  isolation: isolate;
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  flex: 1;
+  min-height: 450px;
+  width: 100%;
+}
+
+/* Vertical Divider - confined to the question/options container */
+.card-inner-split::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: #000000;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* Left Side: Question Text Box */
 .question-text-box {
   flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border-right: 1px solid #000000;
+  border-right: none; /* Divider is drawn by .card-inner-split::after */
   box-sizing: border-box;
 }
 
@@ -157,6 +193,15 @@ body {
 /* Mobile / Portrait Mode: Swap vertical line for a horizontal line */
 @media (orientation: portrait),
 (max-width: 640px) {
+  .card-inner-split {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .card-inner-split::after {
+    display: none; /* No vertical divider in portrait/mobile layout */
+  }
+
   .question-text-box {
     border-right: none;
     border-bottom: 1px solid #000000;
@@ -286,10 +331,12 @@ body {
 /* Right Side: Options List */
 .options-section {
   flex: 1;
+  min-width: 0;
   padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .options-list {
@@ -756,6 +803,11 @@ added for review
 
   .card-inner-split {
     flex-direction: column;
+    min-height: 0;
+  }
+
+  .card-inner-split::after {
+    display: none;
   }
 
   .question-text-box {
