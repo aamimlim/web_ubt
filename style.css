@@ -118,12 +118,7 @@ body {
   display: none !important;
 }
 
-/* Landscape Mode (Default Side-by-Side Split) */
-.card-inner-split {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-}
+
 /* Vertical Divider */
 .card-inner-split::after {
   content: "";
