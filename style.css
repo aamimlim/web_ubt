@@ -155,10 +155,12 @@ body {
 }
 
 /* Question and options edited */
-.question-text-box,
-.options-section {
-  flex: 1;
-  min-width: 0;
+.question-text-box {
+   flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .detail-section {
