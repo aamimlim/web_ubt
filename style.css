@@ -114,43 +114,24 @@ body {
   margin-right: 16px;
 }
 
-.question-card {
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
+.question-card.hidden {
+  display: none !important;
 }
 
-/* Question and Options Container */
+/* Landscape Mode (Default Side-by-Side Split) */
 .card-inner-split {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  position: relative;
-  width: 100%;
-  min-height: 450px;
-  box-sizing: border-box;
-}
-/* Vertical Line - Only inside Question Card */
-.card-inner-split::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 1px;
-  background-color: #000000;
-  transform: translateX(-50%);
-  pointer-events: none;
 }
 
-/* Left Side */
+/* Left Side: Question Text Box */
 .question-text-box {
   flex: 1;
-  min-width: 0;
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border-right: none;
+  border-right: 1px solid #000000;
   box-sizing: border-box;
 }
 
@@ -302,15 +283,13 @@ body {
   stroke: #b0bec5;
 }
 
-/* Right Side */
+/* Right Side: Options List */
 .options-section {
   flex: 1;
-  min-width: 0;
   padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .options-list {
