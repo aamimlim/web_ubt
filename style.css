@@ -124,6 +124,16 @@ body {
   flex-direction: row;
   align-items: stretch;
 }
+/* Vertical Divider */
+.card-inner-split::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: #000000;
+}
 
 /* Left Side: Question Text Box */
 .question-text-box {
@@ -131,7 +141,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border-right: 1px solid #000000;
+  border-right: none;
   box-sizing: border-box;
 }
 
