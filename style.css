@@ -118,7 +118,16 @@ body {
   display: none !important;
 }
 
-
+/* Question and Options Container */
+.card-inner-split {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+  width: 100%;
+  min-height: 450px;
+  box-sizing: border-box;
+}
 /* Vertical Divider */
 .card-inner-split::after {
   content: "";
