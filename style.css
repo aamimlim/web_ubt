@@ -125,6 +125,14 @@ body {
   display: none !important;
 }
 
+/* Vertical Divider */
+.vertical-divider {
+  width: 1px;
+  flex-shrink: 0;
+  background-color: #000000;
+  align-self: stretch;
+}
+
 /* Landscape Mode (Default Side-by-Side Split) */
 .card-inner-split {
   display: flex;
@@ -138,7 +146,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border-right: 1px solid #000000;
+  border-right: none;
   box-sizing: border-box;
 }
 
