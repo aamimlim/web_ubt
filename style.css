@@ -156,11 +156,12 @@ body {
 
 /* Question and options edited */
 .question-text-box {
-   flex: 1;
-  padding: 16px;
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .detail-section {
