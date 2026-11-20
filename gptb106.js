@@ -1,4 +1,4 @@
-const quizMetadataSet11 = [
+const quizMetadata = [
 
     {
         text: "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",

@@ -1,4 +1,4 @@
-const questions = [
+const quizMetadata = [
     {
         text: "[1~4] 다음 그림을 보고 맞는 문장을 고르십시오.",
         num: "1.",
