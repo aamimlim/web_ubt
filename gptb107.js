@@ -300,8 +300,6 @@ const quizMetadata = [
         points: 2.5
     },
 
-    // --- LISTENING SECTION (듣기 21~40) ---
-    // Note: Q21 & Q22 feature minimally contrasting phonetics/syllables requiring careful listening!
     {
         text: "[21~22] 들은 것을 고르십시오.",
         num: "21.",
