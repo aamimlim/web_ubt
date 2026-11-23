@@ -342,10 +342,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-23.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-01.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b2-23-3.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-23-3.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-26-2.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-01.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b2-23-3.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-23-3.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-26-2.webp" }
     ],
     correct: 2,
     points: 2.5
@@ -357,10 +357,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-24.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-24-1.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b5-23-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-28-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt20-34-3.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-24-1.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b5-23-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-28-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/10/gpt20-34-3.webp" }
     ],
     correct: 0,
     points: 2.5
@@ -372,10 +372,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-25.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-01.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-24-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-25-4.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-01.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-24-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-25-4.webp" }
     ],
     correct: 3,
     points: 2.5
@@ -387,10 +387,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-26.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b6-36-1.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-26-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-27-1.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-25-4.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b6-36-1.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-26-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt25-27-1.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-25-4.webp" }
     ],
     correct: 1,
     points: 2.5
@@ -402,10 +402,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-27.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-04.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-27-3.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-27-3.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-28-4.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-04.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-27-3.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-27-3.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-28-4.webp" }
     ],
     correct: 2,
     points: 2.5
@@ -417,10 +417,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-28.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-28-1.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-23-3.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b2-28-4.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b2-02.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-28-1.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-23-3.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b2-28-4.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b2-02.webp" }
     ],
     correct: 0,
     points: 2.5
@@ -510,10 +510,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-34.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-28-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-34-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b6-26-1.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-34-2.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b7-28-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-34-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b6-26-1.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-34-2.webp" }
     ],
     correct: 1,
     points: 2.5
@@ -525,10 +525,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-35.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-10.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-28-2.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-10.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-35-4.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-10.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-28-2.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-10.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-35-4.webp" }
     ],
     correct: 3,
     points: 2.5
@@ -540,10 +540,10 @@ const quizMetadata = [
     image: "",
     audio: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-36.mp3",
     options: [
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-36-1.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-09.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-36-4.webp" },
-      { text: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-35-4.webp" }
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b8-36-1.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b4-09.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt-b3-36-4.webp" },
+      { image: "https://jettyland.wordpress.com/wp-content/uploads/2026/11/gpt24-35-4.webp" }
     ],
     correct: 0,
     points: 2.5
