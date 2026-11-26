@@ -81,12 +81,12 @@ const quizMetadata = [
         detail: "",
         image: "",
         options: [
-            { text: "병원이 멀어서 버스를 <u>타고</u> 가야 해요." },
             { text: "병원이 멀어서 버스를 <u>먹고</u> 가야 해요." },
             { text: "병원이 멀어서 버스를 <u>쓰고</u> 가야 해요." },
-            { text: "병원이 멀어서 버스를 <u>입고</u> 가야 해요." }
+            { text: "병원이 멀어서 버스를 <u>입고</u> 가야 해요." },
+            { text: "병원이 멀어서 버스를 <u>타고</u> 가야 해요." }
         ],
-        correct: 0,
+        correct: 3,
         points: 2.5
     },
 
@@ -186,12 +186,12 @@ const quizMetadata = [
         detail: "외국인 근로자가 체류지를 옮겼을 때는 14일 이내에 관할 기관에 ______ 신고를 해야 합니다.",
         image: "",
         options: [
-            { text: "체류지 변경" },
             { text: "운전면허" },
             { text: "소포 발송" },
+            { text: "체류지 변경" },
             { text: "신용카드" }
         ],
-        correct: 0,
+        correct: 2,
         points: 2.5
     },
 
@@ -216,12 +216,12 @@ const quizMetadata = [
         detail: "회식 자리에서 상사나 선배가 술을 따라 줄 때는 잔을 ______ 받는 것이 공손한 태도입니다.",
         image: "",
         options: [
-            { text: "두 손으로" },
             { text: "발로" },
             { text: "등 뒤로" },
-            { text: "눈을 감고" }
+            { text: "눈을 감고" },
+            { text: "두 손으로" }
         ],
-        correct: 0,
+        correct: 3,
         points: 2.5
     },
 
@@ -231,12 +231,12 @@ const quizMetadata = [
         detail: "직장 동료와 의견이 다를 때는 화를 내지 않고 차분하게 ______ 해결하는 것이 좋습니다.",
         image: "",
         options: [
-            { text: "대화해서" },
             { text: "도망가서" },
             { text: "소리를 질러서" },
-            { text: "문제를 숨겨서" }
+            { text: "문제를 숨겨서" },
+            { text: "대화해서" }
         ],
-        correct: 0,
+        correct: 3,
         points: 2.5
     },
 
@@ -261,12 +261,12 @@ const quizMetadata = [
         detail: "",
         image: "",
         options: [
-            { text: "수당" },
             { text: "처방전" },
+            { text: "수당" },
             { text: "등기부등본" },
             { text: "종량제 봉투" }
         ],
-        correct: 0,
+        correct: 1,
         points: 2.5
     },
 
@@ -276,12 +276,12 @@ const quizMetadata = [
         detail: "한국에서는 쓰레기를 줄이고 환경을 보호하기 위해 분리수거를 철저히 합니다. 종이, 플라스틱, 캔, 유리병 등은 깨끗이 씻어서 정해진 분리수거함에 버리고, 일반 쓰레기는 종량제 봉투에 담아 배출합니다.",
         image: "",
         options: [
-            { text: "재활용품은 깨끗이 씻어서 분리수거함에 버립니다." },
             { text: "일반 쓰레기는 분리수거함에 넣어야 합니다." },
             { text: "플라스틱과 음식물 쓰레기를 함께 버립니다." },
+            { text: "재활용품은 깨끗이 씻어서 분리수거함에 버립니다." },
             { text: "한국에는 분리수거 제도가 없습니다." }
         ],
-        correct: 0,
+        correct: 2,
         points: 2.5
     },
 
@@ -309,12 +309,12 @@ const quizMetadata = [
         audio: "eps13_q21_listening.mp3",
         script: "남: 세탁기",
         options: [
-            { text: "세탁기" },
             { text: "식세기" },
             { text: "청소기" },
+            { text: "세탁기" },
             { text: "선풍기" }
         ],
-        correct: 0,
+        correct: 2,
         points: 2.5
     },
 
@@ -325,12 +325,12 @@ const quizMetadata = [
         audio: "eps13_q22_listening.mp3",
         script: "여: 모종삽으로 흙을 파고 있습니다.",
         options: [
-            { text: "모종삽으로 흙을 파고 있습니다." },
             { text: "호미로 흙을 파고 있습니다." },
+            { text: "모종삽으로 흙을 파고 있습니다." },
             { text: "삽으로 모래를 파고 있습니다." },
             { text: "갈퀴로 흙을 모으고 있습니다." }
         ],
-        correct: 0,
+        correct: 1,
         points: 2.5
     },
 
